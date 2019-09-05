@@ -1,0 +1,19 @@
+/*TYPOGRAPHY*/
+
+@font-face{
+	font-family:'Noteworthy';
+}
+
+.box-text{
+  color: white;
+  font-size: 15px;
+}
+
+.text-white {
+	color: white;
+  font-size: 13px;
+}
+
+
+/*TYPOGRAPHY ENDS*/
+
