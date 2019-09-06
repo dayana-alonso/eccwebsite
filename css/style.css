@@ -116,11 +116,6 @@ height: 20px;
 font-size: 17px !important;
 }
 
-.subscribe-btn{
-	margin:auto;
-	padding: auto;
-	font-size: 23px;
-}
 
 .fas {
 font-size:15px;
@@ -132,6 +127,17 @@ font-size:15px;
 
 .fas fa-phone{
 	font-size: 20px;
+}
+
+.email_box{
+	padding-left:7px;
+	border: 2px solid #acacac;
+}
+
+.subscribe_btn{
+	margin:auto;
+	padding: 4px 47px !important;
+	font-size: 23px;
 }
 
 .copyright-text{
