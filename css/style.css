@@ -10,6 +10,15 @@
 	font-size: 13px;
 }
 
+.parent_guide_button {
+	padding: 0px 5px 2px 5px;
+	color: white;
+	font-size: 13px;
+}
+
+.parent_guide_button:hover{
+	color: white;
+}
 /*Logo block*/
 
 .learn-play{
@@ -39,16 +48,52 @@ height: 20px;
 .news-text h2{
 	font-family: Noteworthy;
 	color: #e51669;
-	font-size: 57px;
+	font-size: 52px;
+	font-weight: bold !important;
 }
 
 .news-text p{
 	font-family: Noteworthy;
 	color: #e51669;
-	font-size: 32px;
+	font-size: 27px;
 }
 /*Latest news end*/
 
+
+/*Body col & button*/
+
+.activity_button{
+	color: white;
+	font-size: 21px;
+	margin: 20px;
+	padding: 0px 50px;
+}
+
+.activity_button:hover{
+	background-color:rgba(0, 0, 0, 0.3);
+	color: white;
+}
+
+/*Body col & button*/
+
+.blue_text{
+	font-size: 17px;
+	padding: 0px 7px 0px 7px;
+}
+
+.orange_text{
+	font-size: 17px;
+}
+
+.green_text{
+	font-size: 17px;
+}
+
+/*Body col & button ends*/
+
+.list-group-item a:hover{
+	opacity: 0.8;
+}
 
 .fas{
   color: black;
