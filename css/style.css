@@ -20,6 +20,13 @@
 	color: white;
 }
 
+/*logo image*/
+
+.LogoECC {
+	width: 200px
+}
+/*logo image ends*/
+
 /*Logo block*/
 
 .learn-play{
@@ -142,4 +149,69 @@ font-size:15px;
 
 .copyright-text{
 font-size: 10px;
+}
+
+/*.main-nav{
+	display: block;
+	}
+*/
+/*
+	.main-nav li {
+		display: inline;
+		margin: 0px 30px;
+		font-size: 20px;
+	}*/
+
+/*	Media Query sm-mb to tablet */
+
+/*Medium devices (tablets & cellphones, less than 992px)*/
+
+@media (max-width: 991.98px){ 
+	.school-info div {
+		text-align: center !important;
+	}
+
+	.parent-guide-row div {
+		text-align: center !important;
+	}
+
+	.learn-play, .desktop-nav {
+		display: none;
+	}
+
+	.mobile-padding {
+		margin: 20px 0px;
+	}
+
+	.main-nav {
+		margin-top: 30px;
+		background-color:#f87628;
+		width: 100%;
+	}
+
+	.main-nav a {
+	color: #fff;
+}
+
+	.main-nav ul {
+		list-style: none;
+		padding: 10px 0px;
+		margin: 0px;
+		margin: 0px auto;
+	}
+
+
+	.main-nav li {
+		display: block;
+		border-bottom: 1px #442205 solid;
+		padding: 5px 0px;
+	}
+
+}
+
+@media (min-width: 1200px){
+
+	.main-nav{
+		display: none;
+	}
 }

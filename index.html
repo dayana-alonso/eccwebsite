@@ -24,9 +24,9 @@
     <div class="container-fluid bg-dark-green">
       <div class="container box">
         <div class="row clearfix school-info">
-          <div class="col-4">Open hours: Monday-Friday 6:30am-5:30pm</div>
-          <div class="col-4 text-center">Email: ContactUs@emichildcare.com</div>
-          <div class="col-4 text-right">Call us  (256) 489-4620</div>
+          <div class="col-12 col-md-4">Open hours: Monday-Friday 6:30am-5:30pm</div>
+          <div class="col-12 col-md-4 text-center">Email: ContactUs@emichildcare.com</div>
+          <div class="col-12 col-md-4 text-right">Call us  (256) 489-4620</div>
         </div>
       </div>
     </div>
@@ -34,7 +34,7 @@
 
     <!-- Parent-guide  -->
     <div class="container">
-      <div class="row">
+      <div class="row parent-guide-row">
         <div class="col-12 text-right parent-guide mt-20 box">
           <a class="parent_guide_button bg-dark-green" href="#" role="button">Parents Sign In</a>
           <a class="bg-orange parent_guide_button" href="#" role="button">Payment Online</a>
@@ -56,7 +56,7 @@
     <!-- Logo block ends -->
 
     <!-- Navigation bar  -->
-    <div box class="container mt-30">
+    <div box class="container mt-30 desktop-nav">
       <div class="list-group list-group-horizontal">
         <span class="list-group-item"><a href="" class="main-nav"><img src="img/homenav.jpg"></a></span>
         <span class="list-group-item"><a href=""><img src="img/aboutusnav.jpg"></a></span>
@@ -67,7 +67,64 @@
       </div>
     </div>
     <!-- Navigation bar end -->
+
+    <!-- Navigation mobile bar -->
+      <div class="row mb-30">
+        <div class="col">
+          <nav class="navbar d-lg-none navbar-light main-nav">
+            <a class="navbar-brand text-white" href="#">Navbar</a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fas fa-align-justify text-white"></i>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+              <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Testimonial</a></li>
+                <li><a href="#">Out Teacher</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+      </div>
   
+    <!-- Navigation mobile bar -->
+<!--     <nav class="navbar navbar-expand-lg navbar-light bg-light mobile_navbar ">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <div class="col-12 col-md-4">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Testimonial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Our Teacher</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Events</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact Us</a>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </nav> -->
+    <!-- Navigation mobile bar ends -->
+
+
     <!-- Banner auto scrolling -->
     <div class=" mt-30">
       <img class="mySlides" src="img/hopp.jpg" style="width:100%">
@@ -85,29 +142,29 @@
     <!-- Latest News above body end -->
 
     <!-- Body -->
-    <div class="container text-center mt-20 box">
+    <div class="container text-center mt-20">
       <div class="row text-white">
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <div class="bg-orange">
-              <img src="img/orangerec.jpg">
+              <img src="img/orangerec.jpg" class="img-fluid">
               <h2>DayCare Center</h2>
-              <p class="text-center orange_text mt-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse</p>
+              <p class="orange_text mt-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse</p>
               <a class="btn bg-light-blue activity_button" href="#" role="button">Read More</a>
             </div>
           </div>
 
-          <div class="col-4">
+          <div class="col-12 col-md-4 mobile-padding">
             <div class="bg-green">
-              <img src="img/greenrec.jpg">
+              <img src="img/greenrec.jpg" class="img-fluid">
               <h2>Activities</h2>
               <p class="text-center green_text mt-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse</p>
               <a class="btn activity_button bg-orange" href="#" role="button">Read More</a>
             </div>
           </div>
 
-          <div class="col-4">
+          <div class="col-12 col-md-4">
             <div class="bg-light-blue">
-              <img src="img/bluerec.jpg">
+              <img src="img/bluerec.jpg" class="img-fluid">
               <h2>Our Events</h2>
               <p class="text-center blue_text mt-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse</p>
               <a class="btn bg-green activity_button" href="#" role="button">Read More</a>
