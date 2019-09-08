@@ -175,6 +175,14 @@ font-size: 10px;
 		display: none;
 	}
 
+	.LogoECC {
+		width: 180px;
+	}
+
+	.mobile-center {
+		text-align: center;
+	}
+
 	.mobile-padding {
 		margin: 20px 0px;
 	}
