@@ -187,6 +187,11 @@ font-size: 10px;
 		margin: 20px 0px;
 	}
 
+	.mobile_navlist ul li {
+		border-bottom: 1px white solid;
+
+	}
+
 	.main-nav {
 		margin-top: 30px;
 		background-color:#f87628;
