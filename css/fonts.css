@@ -2,6 +2,7 @@
 
 @font-face{
 	font-family:'Noteworthy';
+	src: url(vendor/fonts/Noteworthy-Lt.ttf);
 }
 
 .box-text{
