@@ -16,7 +16,7 @@
 	font-size: 13px;
 }
 
-.parent_guide_button:hover{
+.parent_guide_button:hover {
 	color: white;
 }
 
@@ -32,7 +32,7 @@
 	font-size: 24px;
 }
 
-.instagram_color_icon{
+.instagram_color_icon {
   display: inline-block;
   text-align: center;
   border-radius: 10px;
@@ -40,11 +40,11 @@
   font-size: 27px;
   vertical-align: middle;
   background: #d6249f;
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
-  box-shadow: 0px 3px 10px rgba(0,0,0,.25);
+  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, 
+  #fd5949 45%,#d6249f 60%,#285AEB 90%);
 }
 
-.facebook_blue_icon{
+.facebook_blue_icon {
 	color:#4c6da3;
   font-size: 27px;
   vertical-align: middle;
@@ -56,7 +56,7 @@
 
 /*Logo block*/
 
-.learn-play{
+.learn-play {
 	font-size: 32px;
 	padding: 3px 20px 3px 20px;
 	color: white;
@@ -70,28 +70,28 @@
 	padding:0px !important;
 }
 
-.list-group-item a:hover{
+.list-group-item a:hover {
 	opacity: 0.8;
 }
 /*Navbar end*/
 
 /*Banner top*/
 
-.form-control{
+.form-control {
 height: 20px;
 }
 /*banner top ends*/
 
 
 /*Latest news*/
-.news-text h2{
+.news-text h2 {
 	font-family: Noteworthy;
 	color: #e51669;
 	font-size: 52px;
 	font-weight: bold !important;
 }
 
-.news-text p{
+.news-text p {
 	font-family: Noteworthy;
 	color: #e51669;
 	font-size: 27px;
@@ -100,44 +100,43 @@ height: 20px;
 
 
 /*Body col & button*/
-
-.activity_button{
+.activity_button {
 	color: white;
 	font-size: 21px;
 	margin: 20px;
 	padding: 0px 50px;
 }
 
-.activity_button:hover{
+.activity_button:hover {
 	background-color:rgba(0, 0, 0, 0.3);
 	color: white;
 }
 
 /*Body col & button*/
 
-.blue_text{
+.blue_text {
 	font-size: 17px;
 	padding: 0px 7px 0px 7px;
 }
 
-.orange_text{
+.orange_text {
 	font-size: 17px;
 }
 
-.green_text{
+.green_text {
 	font-size: 17px;
 }
 
 /*Body col & button ends*/
 
-.contact_container{
+.contact_container {
 	max-width: 950px;
 	border-top: 10px solid #7fa646;
 	margin-left: auto;
 	margin-right: auto;
 }
 
-.contact_text{
+.contact_text {
 	font-size: 14px;
 	font-weight: bold;
 }
@@ -146,7 +145,7 @@ height: 20px;
 	font-size: 12px;
 }
 
-.emichildcare-text{
+.emichildcare-text {
 font-size: 17px !important;
 }
 
@@ -158,28 +157,28 @@ font-size:15px;
 	font-size: 20px; 
 }
 
-.fas fa-phone{
+.fas fa-phone {
 	font-size: 20px;
 }
 
-.email_box{
+.email_box {
 	padding-left:7px;
 	border: 2px solid #acacac;
 }
 
-.subscribe_btn{
+.subscribe_btn {
 	margin:auto;
 	padding: 4px 47px !important;
 	font-size: 23px;
 }
 
-.footer-block{
+.footer-block {
 max-width: 100%;
 padding: 10px 0px;
 background-color:#7fa646;
 }
 
-.copyright-text{
+.copyright-text {
 font-family:arial;
 padding:6px 0px;
 font-size: 12px;
@@ -217,7 +216,6 @@ font-size: 12px;
 
 	.mobile_navlist ul li {
 		border-bottom: 1px white solid;
-
 	}
 
 	.main-nav {
@@ -247,7 +245,7 @@ font-size: 12px;
 		max-width: 100%;
 	}
 
-	.footer_block{
+	.footer_block {
 		display: none !important;
 	}
 
@@ -271,7 +269,8 @@ font-size: 12px;
 	.main-nav{
 		display: none;
 	}
-.footer_block_mobile{
+
+	.footer_block_mobile { 
 	display: none;
-}
+	}
 }
