@@ -177,12 +177,23 @@ height: 20px;
 	background-color:#7fa646;
 }
 
+
 .copyright-text {
 	font-family:arial;
 	padding:6px 0px;
-	font-size: 12px;
+	font-size: 14px;
 }
 
+.footer_navigation ul li a {
+	margin-bottom: 7px;
+  font-size: 14px;
+  list-style-type:none;
+  color: black;
+}
+
+.footer_nav_blocks{
+	margin-bottom: 15px;
+}
 
 /*	Media Query sm to tablet */
 
@@ -294,6 +305,10 @@ height: 20px;
 	display: none;
 }
 
+.footer_navigation{
+	display: none;
+	}
+
 /*social media block ends*/
 }
 
@@ -322,4 +337,5 @@ height: 20px;
 	.mobile_scroll_display{
 		display: none;
 	}
+
 }
