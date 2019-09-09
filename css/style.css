@@ -148,16 +148,16 @@ height: 20px;
 	font-size: 17px !important;
 }
 
-.fas {
-	font-size:15px;
+.fa_search_location_size{
+	font-size: 17px;
 }
 
-.far{
-	font-size: 20px; 
+.envelope_size {
+	font-size: 17px; 
 }
 
-.fas fa-phone {
-	font-size: 20px;
+.fa_phone_size {
+	font-size: 17px;
 }
 
 .email_box {
