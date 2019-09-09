@@ -120,10 +120,12 @@ height: 20px;
 
 .orange_text {
 	font-size: 17px;
+	padding: 0px 7px 0px 7px;
 }
 
 .green_text {
 	font-size: 17px;
+	padding: 0px 7px 0px 7px;
 }
 
 /*Body col & button ends*/
