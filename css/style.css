@@ -128,8 +128,29 @@ height: 20px;
 	padding: 0px 7px 0px 7px;
 }
 
-.img_testimonial{
+.img_testimonial {
 width: 200px;
+}
+
+.testimonial_header {
+font-size: 43px;
+color: #233956;
+font-family: sans-serif;
+font-weight: bold;
+}
+
+.testimonial_text {
+font-size: 15px;
+line-height: 1.25;
+color: #233956;
+font-family: sans-serif;
+}
+
+.testimonial_bold{
+font-weight: bold;
+font-size: 23px;
+}
+
 }
 /*Body col & button ends*/
 
