@@ -1,5 +1,6 @@
 
 .school-info div {
+	font-family:arial;
 	color: white;
 	font-size: 14px;
 }
@@ -289,6 +290,10 @@ height: 20px;
 	display: none;
 }
 
+.desktop_scroll_display{
+	display: none;
+}
+
 /*social media block ends*/
 }
 
@@ -312,5 +317,9 @@ height: 20px;
 
 	.facebook_blue_icon_mobile {
 	display: none;
+	}
+
+	.mobile_scroll_display{
+		display: none;
 	}
 }
