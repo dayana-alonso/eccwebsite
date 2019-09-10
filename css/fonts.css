@@ -16,5 +16,23 @@
 }
 
 
+/*events*/
+.event_text h2{
+	padding-top: 10px;
+	color: white;
+	font-size: 35px;
+	font-weight: bold;
+	line-height: 1.25;
+	font-family:'Noteworthy';
+}
+
+.event_text p{
+	color: white;
+	font-size: 17px;
+	line-height: 1.25;
+	font-family:'Noteworthy';
+}
+/*events end*/
+
 /*TYPOGRAPHY ENDS*/
 

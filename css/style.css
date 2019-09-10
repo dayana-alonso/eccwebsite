@@ -111,6 +111,14 @@ height: 20px;
 	color: white;
 }
 
+.activity_event_button {
+	font-family:'Noteworthy';
+	color: white;
+	font-size: 21px;
+	margin: 20px;
+	padding: 0px 50px;
+}
+
 /*Body col & button*/
 
 .blue_text {
