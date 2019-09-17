@@ -34,5 +34,16 @@
 }
 /*events end*/
 
+.emilia_text{
+	font-family: Arial, Helvetica, sans-serif;
+}
+.emilia_text_bold {
+font-size: 23px;
+line-height: 1.25;
+color: #233956;
+font-family: Arial;
+font-weight: bold;
+}
+
 /*TYPOGRAPHY ENDS*/
 

@@ -159,6 +159,9 @@ font-weight: bold;
 font-size: 23px;
 }
 
+.testimonial{
+	font-size: 23px;
+}
 /*Body col & button ends*/
 
 .contact_container {
@@ -201,7 +204,7 @@ font-size: 23px;
 
 .subscribe_btn {
 	margin:auto;
-	padding: 4px 47px !important;
+	padding: 4px 27px !important;
 	font-size: 23px;
 }
 
