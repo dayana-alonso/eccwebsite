@@ -56,7 +56,7 @@
 /*Logo block*/
 
 .learn-play {
-	font-size: 32px;
+	font-size: 22px;
 	padding: 3px 20px 3px 20px;
 	color: white;
 }
@@ -130,7 +130,7 @@ height: 20px;
 	font-family:'Noteworthy';
 	color: white;
 	font-size: 27px;
-	padding: 0px 60px;
+	padding: 5px 60px;
 }
 
 .enrolling_button:hover {
@@ -142,9 +142,7 @@ height: 20px;
 	font-family:'Noteworthy';
 	color: white;
 	font-size: 27px;
-	margin: 30px;
-	padding: 4px 75px;
-}
+	padding: 5px 60px;
 }
 
 
