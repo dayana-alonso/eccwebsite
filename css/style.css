@@ -119,6 +119,37 @@ height: 20px;
 	padding: 0px 50px;
 }
 
+
+/*About button*/
+.take_atour_button:hover {
+	background-color:rgba(0, 0, 0, 0.3);
+	color: white;
+}
+
+.take_atour_button {
+	font-family:'Noteworthy';
+	color: white;
+	font-size: 27px;
+	padding: 0px 60px;
+}
+
+.enrolling_button:hover {
+	background-color:rgba(0, 0, 0, 0.3);
+	color: white;
+}
+
+.enrolling_button{
+	font-family:'Noteworthy';
+	color: white;
+	font-size: 27px;
+	margin: 30px;
+	padding: 4px 75px;
+}
+}
+
+
+/*about button*/
+
 /*Body col & button*/
 
 .blue_text {
@@ -246,10 +277,20 @@ font-size: 23px;
   color: black;
 }
 
-.footer_nav_blocks{
+.footer_nav_blocks {
 	margin-bottom: 15px;
 }
 
+.about_banner_yellow {
+	width: 100%;
+	text-align: center;
+	border: solid 2px #ff33cc;
+	font-size: 35px;
+	color: #fff;
+	background-color: #cc33ff;
+	padding:25px 25px;
+
+}
 /*	Media Query sm to tablet */
 
 /*Medium devices (tablets & cellphones, less than 992px)*/

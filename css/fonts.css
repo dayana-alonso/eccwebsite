@@ -17,7 +17,7 @@
 
 
 /*events*/
-.event_text h2{
+.event_text h2 {
 	padding-top: 10px;
 	color: white;
 	font-size: 35px;
@@ -26,7 +26,7 @@
 	font-family:'Noteworthy';
 }
 
-.event_text p{
+.event_text p {
 	color: white;
 	font-size: 17px;
 	line-height: 1.25;
@@ -34,15 +34,23 @@
 }
 /*events end*/
 
-.emilia_text{
+.emilia_text {
 	font-family: Arial, Helvetica, sans-serif;
 }
+
+.emilia_text h5 {
+	font-size: 20px;
+	color: #233956;
+	font-family: Arial;
+	font-weight: bold;
+}
+
 .emilia_text_bold {
-font-size: 23px;
-line-height: 1.25;
-color: #233956;
-font-family: Arial;
-font-weight: bold;
+	font-size: 26px;
+	line-height: 1.25;
+	color: #233956;
+	font-family: Arial;
+	font-weight: bold;
 }
 
 /*TYPOGRAPHY ENDS*/
