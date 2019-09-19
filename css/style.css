@@ -115,7 +115,7 @@ height: 20px;
 .activity_event_button {
 	font-family:'Noteworthy';
 	color: white;
-	font-size: 27px;
+	font-size: 21px;
 	margin: 30px;
 	padding: 0px 100px;
 }
@@ -295,12 +295,35 @@ font-size: 23px;
 	padding:25px 25px;
 }
 
-.bg_img{
-	background-color:;
-	background-image: url("../img/clouds.jpg");
+.globetrooters_bg_img{
+	padding:100px 50px;
+	background-color:#ccfbff;
   background-position: right bottom;
   background-repeat: no-repeat;
 }
+
+.globetrooters_header{
+	font-size: 37px;
+	line-height: 1.25;
+	color: #233956;
+	font-family: BubblegumSans;
+}
+
+
+.globetrooters_h2 {
+	font-size: 27px;
+	line-height: 1.25;
+	color: #233956;
+	font-family: BubblegumSans;
+}
+
+.globetrooters_text{
+	font-size: 20px;
+	color: #233956;
+	font-family: Arial;
+}
+
+
 /*	Media Query sm to tablet */
 
 /*Medium devices (tablets & cellphones, less than 992px)*/
