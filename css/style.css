@@ -55,7 +55,8 @@
 
 /*Logo block*/
 
-.learn-play {
+.learn_play {
+	font-family:Noteworthy;
 	font-size: 22px;
 	padding: 3px 20px 3px 20px;
 	color: white;
@@ -84,7 +85,7 @@ height: 20px;
 
 /*Latest news*/
 .news-text h2 {
-	font-family: Noteworthy;
+	font-family: BubblegumSans;
 	color: #e51669;
 	font-size: 52px;
 	font-weight: bold !important;
@@ -139,9 +140,9 @@ height: 20px;
 }
 
 .enrolling_button{
-	font-family:'Noteworthy';
+	font-family:'BubblegumSans';
 	color: white;
-	font-size: 27px;
+	font-size: 22px;
 	padding: 5px 60px;
 }
 
@@ -150,19 +151,23 @@ height: 20px;
 
 /*Body col & button*/
 
-.blue_text {
+.orange_copyright_text {
+	font-family:arial;
+	padding:6px 10px;
 	font-size: 17px;
-	padding: 0px 7px 0px 7px;
 }
 
-.orange_text {
+.blue_copyright_text{
+	font-family:arial;
+	padding:6px 10px;
 	font-size: 17px;
-	padding: 0px 7px 0px 7px;
-}
+} 
 
-.green_text {
+.green_copyright_text{
+	font-family:arial;
+	padding:6px 10px;
 	font-size: 17px;
-	padding: 0px 7px 0px 7px;
+
 }
 
 .img_testimonial {
@@ -172,7 +177,7 @@ width: 200px;
 .testimonial_header {
 font-size: 43px;
 color: #233956;
-font-family: sans-serif;
+font-family: BubblegumSans;
 font-weight: bold;
 }
 
@@ -232,6 +237,7 @@ font-size: 23px;
 }
 
 .subscribe_btn {
+	font-family: BubblegumSans;
 	margin:auto;
 	padding: 4px 27px !important;
 	font-size: 23px;
@@ -249,7 +255,7 @@ font-size: 23px;
 }
 
 .contact_container h4 {
-	font-family: Arial;
+	font-family: BubblegumSans;
 	font-weight: bold;
 	margin-bottom: 20px;
 }
@@ -289,6 +295,13 @@ font-size: 23px;
 	padding:25px 25px;
 
 }
+
+.bg_img{
+	background-color:;
+	background-image: url("../img/clouds.jpg");
+  background-position: right bottom;
+  background-repeat: no-repeat;
+}
 /*	Media Query sm to tablet */
 
 /*Medium devices (tablets & cellphones, less than 992px)*/
@@ -302,7 +315,7 @@ font-size: 23px;
 		text-align: center !important;
 	}
 
-	.learn-play, .desktop-nav {
+	.learn_play, .desktop-nav {
 		display: none;
 	}
 
