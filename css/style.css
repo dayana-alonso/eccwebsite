@@ -115,9 +115,9 @@ height: 20px;
 .activity_event_button {
 	font-family:'Noteworthy';
 	color: white;
-	font-size: 21px;
-	margin: 20px;
-	padding: 0px 50px;
+	font-size: 27px;
+	margin: 30px;
+	padding: 0px 100px;
 }
 
 
@@ -293,7 +293,6 @@ font-size: 23px;
 	color: #fff;
 	background-color: #cc33ff;
 	padding:25px 25px;
-
 }
 
 .bg_img{

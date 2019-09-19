@@ -25,7 +25,7 @@ src: url(vendor/fonts/BubblegumSans-Regular.ttf);
 .event_text h2 {
 	padding-top: 10px;
 	color: white;
-	font-size: 35px;
+	font-size: 30px;
 	font-weight: bold;
 	line-height: 1.25;
 	font-family:'BubblegumSans';
@@ -33,7 +33,8 @@ src: url(vendor/fonts/BubblegumSans-Regular.ttf);
 
 .event_text p {
 	color: white;
-	font-size: 17px;
+	padding: 10px 10px;
+	font-size: 20px;
 	line-height: 1.25;
 	font-family:'Helvetica';
 }
