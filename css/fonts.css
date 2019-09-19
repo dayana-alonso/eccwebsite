@@ -58,5 +58,11 @@ src: url(vendor/fonts/BubblegumSans-Regular.ttf);
 	font-family: BubblegumSans;
 }
 
+.contact_text_bubble{
+	font-family: BubblegumSans;
+	color: #233956;
+	font-size: 17px;
+
+}
 /*TYPOGRAPHY ENDS*/
 
