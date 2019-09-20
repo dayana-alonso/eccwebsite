@@ -20,8 +20,17 @@
 .mt-70{
 	margin-top: 70px;
 }
+
 .pr-70 {
   padding-right:70px; 
+}
+
+.pt-50{
+	padding-top: 50px;
+}
+
+.pt-30{
+	padding-top: 30px;
 }
 
 .ml-35{
