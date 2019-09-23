@@ -62,6 +62,7 @@ src: url(vendor/fonts/BubblegumSans-Regular.ttf);
 .emilia_text_bold_white{
 	font-family: BubblegumSans;
 	font-size: 35px;
+	
 	line-height: 1.25;
 	color: #fff;
 }
@@ -72,6 +73,14 @@ src: url(vendor/fonts/BubblegumSans-Regular.ttf);
 	font-weight: bold;
 	line-height: 1.25;
 	color: #fff;
+}
+
+.enrichment_text_bold{
+	font-family: BubblegumSans;
+	font-size: 42px;
+	font-weight: bold;
+	line-height: 1.25;
+
 }
 
 .contact_text_bubble{

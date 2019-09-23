@@ -4,8 +4,16 @@
   background-color:#7fa646;
 }
 
+.bg_green_footer{
+	background: #1db361;
+}
+
+.footer_bg{
+	background-color: #1cad5e;
+}
+
 .bg-dark-green {
-  background-color:#23bf1c;
+  background-color:#1db361;
 }
 
 .bg-orange {
