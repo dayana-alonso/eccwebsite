@@ -184,6 +184,13 @@
 	font-weight: bold;
 	}
 
+.testimonial_header_bold {
+	font-size: 43px;
+	color: #fff;
+	font-family: BubblegumSans;
+	font-weight: bold;
+	}
+
 	.testimonial_text {
 	font-size: 15px;
 	line-height: 1.25;
@@ -199,6 +206,28 @@
 	.testimonial{
 		font-size: 23px;
 	}
+
+	.event_text {
+	font-size: 27px;
+	line-height: 1.25;
+	color: #233956;
+	font-family: BubblegumSans;
+	}
+
+	.event_text {
+	font-size: 27px;
+	line-height: 1.25;
+	color: #233956;
+	font-family: BubblegumSans;
+	}
+
+	.event_text_white{
+	font-size: 23px;
+	line-height: 1.25;
+	color: #fff;
+	font-family: BubblegumSans;
+	}
+
 	/*Body col & button ends*/
 
 	.contact_container {
@@ -366,178 +395,4 @@
 		background-repeat: no-repeat;
 		width: 100%;
 		}
-
-}
-/*	Media Query sm to tablet */
-
-/*Medium devices (tablets & cellphones, less than 992px)*/
-
-@media (max-width: 991.98px){ 
-	.school-info div {
-		text-align: center !important;
-	}
-
-	.parent-guide-row div {
-		text-align: center !important;
-	}
-
-	.learn_play, .desktop-nav {
-		display: none;
-	}
-
-	.LogoECC {
-		width: 180px;
-	}
-
-	.mobile-center {
-		text-align: center;
-	}
-
-	.mobile-padding {
-		margin: 20px 0px;
-	}
-
-	.mobile_navlist ul li {
-		border-bottom: 1px white solid;
-	}
-
-	.main-nav {
-		margin-top: 30px;
-		background-color:#f87628;
-		width: 100%;
-	}
-
-	.main-nav a {
-	color: #fff;
-	}
-
-	.main-nav ul {
-		list-style: none;
-		padding: 10px 0px;
-		margin: 0px;
-		margin: 0px auto;
-	}
-
-	.main-nav li {
-		display: block;
-		border-bottom: 1px #442205 solid;
-		padding: 5px 0px;
-	}
-
-	.footer_block_mobile {
-		max-width: 100%;
-	}
-
-	.footer_block {
-		display: none !important;
-	}
-
-	.footer_text_white{
-		color: #fff !important;
-		font-size: 19px;
-	}
-
-	.icon_bar {
-		text-align: center;
-	}
-
-	.icon_bar a i {
-		color: #fff !important;
-	}
-
-	.pd_icon_footer{
-		padding-left: 60px;
-	}
-
-	.desktop_scroll_display{
-		display: none;
-	}
-
-/*Social media block*/
-
- .display_mobile{
- 	padding-bottom: 10px;
- 	padding-top: 10px;
- }
-
-.instagram_color_icon_mobile {
-	display: inline-block;
-  text-align: center;
-  border-radius: 10px;
-  color: #fff;
-  font-size: 27px;
-  vertical-align: middle;
-	}
-
-	.facebook_blue_icon_mobile {
-		color:#fff;
-	  font-size: 27px;
-	  vertical-align: middle;
-		display: inline-block;
-	  text-align: center;
-		border-radius: 10px;
-	}
-
-	.instagram_color_icon {
-		display: none;
-	}
-
-	.facebook_blue_icon {
-		display: none;
-	}
-
-	.footer_navigation{
-		display: none;
-		}
-
-	.happening_pb{
-		padding-bottom: 20px;
-	}
-
-	.bg_tablet_img{
-		background-image: url(../img/bootom_img.jpg), url(../img/top_img.jpg);
-		background-position: right bottom, left top;
-		background-repeat: no-repeat;
-	}
-
-	.pink_bg_enrichment{r
-		background-color: #fabde7;
-	}
-
-	.padding_bottom_about_mobile{
-		padding-bottom: 100px;
-	}
-	/*social media block ends*/
-}
-
-/*
-
-// Extra large devices (large desktops, 1200px and up)
-*/
-@media (min-width: 1200px){
-
-	.main-nav{
-		display: none;
-	}
-
-	.footer_block_mobile { 
-	display: none;
-	}
-
-	.instagram_color_icon_mobile {
-  display: none;
-	}
-
-	.facebook_blue_icon_mobile {
-	display: none;
-	}
-
-	.mobile_scroll_display{
-		display: none;
-	}
-
-	.bg_tablet_img{
-		display: none;
-	}
-
 }
