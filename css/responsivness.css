@@ -154,14 +154,6 @@
 	background-position: left bottom;
 }
 
-.banner_bg_aboutus_img{
-	background-image: url(../img/banner_bg_aboutus.jpg);
-	padding: 120px 0px 250px 0px;
-	background-repeat: no-repeat;
-	background-position: left bottom;
-	object-fit: cover;
-}
-
 .bg_banner_ask_q{
 	background-image: url(../img/banner_ask_q_bottom.jpg), url(../img/banner_ask_q_top.jpg);
 	background-position: left bottom, left top;
@@ -203,4 +195,12 @@
 	.bg_tablet_img{
 		display: none;
 	}
+
+.banner_bg_aboutus_img{
+	background-image: url(../img/banner_bg_aboutus.jpg);
+	padding: 100px 0px 100px 0px;
+	background-repeat: no-repeat;
+	object-fit: cover;
+	background-size: 100%;
+}
 }
