@@ -147,6 +147,13 @@
 	background-position: left bottom;
 }
 
+.faq_page_mobile_img{
+	background-image: url(../img/clouds_banner.jpg);
+	background-repeat: no-repeat;
+	padding: 120px 0px 150px 0px;
+	background-position: left bottom;
+}
+
 .banner_bg_aboutus_img{
 	background-image: url(../img/banner_bg_aboutus.jpg);
 	padding: 120px 0px 250px 0px;
@@ -155,7 +162,13 @@
 	object-fit: cover;
 }
 
-
+.bg_banner_ask_q{
+	background-image: url(../img/banner_ask_q_bottom.jpg), url(../img/banner_ask_q_top.jpg);
+	background-position: left bottom, left top;
+	padding: 100px 15px 20px 15px;
+	background-repeat: no-repeat;
+	background-color: #faedf1;
+}
 
 
 .footer_mobile_bg{
