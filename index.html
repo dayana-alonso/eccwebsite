@@ -16,7 +16,7 @@
     <link rel="stylesheet" type="text/css" href="css/reset.css">
     <link rel="stylesheet" type="text/css" href="css/utilities.css">
     <link rel="stylesheet" type="text/css" href="css/responsivness.css">
-    
+
     <title>ECC Daycare</title>
   </head>
   <body>
@@ -26,9 +26,11 @@
     <div class="container-fluid bg-dark-green">
       <div class="container">
         <div class="row clearfix school-info">
-          <div class="col-12 col-md-12 col-lg-4">Open hours: Monday-Friday 6:30am-5:30pm</div>
+          <div class="col-12 col-md-12 col-lg-4">Monday-Friday 6:30am-6:00pm</div>
           <div class="col-12 col-md-12 col-lg-4 text-center mt-10"></div>
-          <div class="col-12 col-md-12 col-lg-4 text-right">Call us (256) 489-4620</div>
+          <div class="col-12 col-md-12 col-lg-4 text-right">
+            <a href="tel:1-256 489 4620" class="text-white school_info">Call us 256-489-4620</a>
+          </div>
           <div class="col-12 text-right mt-10 pb-10">
           <span><i class="fab fa-instagram instagram_color_icon_mobile"></i></span>
           <span><i class="fab fa-facebook facebook_blue_icon_mobile"></i></span>
@@ -160,8 +162,8 @@
       <div class="col-12 col-md-4 happening_pb">
         <div class="bg-orange">
           <img src="img/orangerec.jpg" class="img-fluid">
-          <h2>The ECC Educators</h2>
-          <p class="orange_copyright_text text-center mt-20">
+          <h2 style="color: white">The ECC Educators</h2>
+          <p class="green_copyright_text mt-20">
             Our teachers are fun, engaging and dedicated professionals that exceed the daycare requirements for employment. We highlight their individual talents to aid in our program growth. 
           </p>
           <a class="btn bg-light-blue activity_button" href="#" role="button">Read More</a>
@@ -171,7 +173,7 @@
       <div class="col-12 col-md-4 happening_pb text-center">
         <div class="bg-green">
           <img src="img/greenrec.jpg" class="img-fluid">
-          <h2>Our Educational Approach</h2>
+          <h2 style="color: white">Our Educational Approach</h2>
           <p class="green_copyright_text mt-20">
             We bridge the transition from home to school with our pleasantly calm environment. A great amount of thought has been put into making each space enjoyable for an optimal learning experience.
           </p>
@@ -182,7 +184,7 @@
       <div class="col-12 col-md-4 text-center">
         <div class="bg-light-blue">
           <img src="img/bluerec.jpg" class="img-fluid">
-          <h2>Supporting Families</h2>
+          <h2 style="color: white">Supporting Families</h2>
           <p class="blue_copyright_text mt-20">Our families are a part of our communities from across Madison County, AL. We partner with parents to create an environment ensuring their child’s growth and learning experiences are as expected.
           </p>
           <a class="btn bg-green activity_button" href="#" role="button">Read More</a>
@@ -192,9 +194,9 @@
   </div>
 
   <!-- Desktop footer info -->
-  <div class="bunny_footer_banner_bg footer_bg mt-70">
+  <div class="bunny_footer_banner_bg footer_bg d-none d-lg-block mt-70">
     <div class="footer_bg">
-      <div class="contact_container footer_text_white d-none d-lg-block mt-70">
+      <div class="contact_container footer_text_white mt-70">
         <div class="row">
           <div class="col-4 mt-30">
             <h4>Navigation</h4>
@@ -213,10 +215,13 @@
                 <i class="fas fa-search-location fa_search_location_size"></i>
                 4835 Sparkman Drive Huntsville, AL 35810</p>
               <p>
-                <i class="far fa-envelope envelope_size"></i> ContactUs@emichildcare.com
+                <i class="far fa-envelope envelope_size"></i>
+                  <a href="mailto:ContactUs@emichildcare.com" class="text-white">Email Us</a> 
               </p>
-                <p><i class="fas fa-phone-alt fa_phone_size"></i> Call us (256) 489-4620
-              </p>
+              <p>
+                <i class="fas fa-phone-alt fa_phone_size"></i>
+                <a href="tel:1-256 489 4620" class="text-white">Call us</a>
+              </p> 
           </div>
 
           <div class="col-4 mt-30">
@@ -228,38 +233,42 @@
         </div>
       </div>
     </div>
+  </div>
   <!-- Desktop footer info ends -->
 
-  <!-- Desktop mobile footer -->
-    <footer class="footer_bg d-lg-none d-xl-none mt-70 box">
-      <div class="row">
-        <div class="col-3 icon_bar">
-          <a href="index.html" class="item_tool_tip text-white pd_icon_footer">
-            <i class="fa fa-home"></i>
-              <p>Home</p>
-          </a>
-        </div>
-        <div class="col-3 icon_bar">
-          <a href="whatwedo.html" class="item tool-tip text-white">
-            <i class="fa fa-child"></i>
-              <p>What We Do</p>
-          </a>
-        </div>
-        <div class="col-3 icon_bar">
-          <a href="whychooseexx.html" class="item tool-tip text-white">
-            <i class="fa fa-question"></i>
-              <p>Why Choose ECC</p>
-          </a>
-        </div>
-        <div class="col-3 icon_bar">
-          <a href="contactus.html" class="item tool-tip text-white">
-            <i class="far fa-comments"></i>
-              <p>Contact Us</p>
-          </a>
+  <!-- Desktop mobile footer --> 
+  <div class="footer_bg d-lg-block">
+    <footer class="d-lg-none mt-70">
+      <div class="footer_mobile_bg">
+        <div class="row footer_links_mobile">
+          <div class="col-3 icon_bar">
+            <a href="index.html" class="item_tool_tip text-white">
+              <i class="fa fa-home"></i>
+                <p>Home</p>
+            </a>
+          </div>
+          <div class="col-3 icon_bar">
+            <a href="whatwedo.html" class="item tool-tip text-white">
+              <i class="fa fa-child"></i>
+                <p>What We Do</p>
+            </a>
+          </div>
+          <div class="col-3 icon_bar">
+            <a href="whychooseexx.html" class="item tool-tip text-white">
+              <i class="fa fa-question"></i>
+                <p>Why Choose ECC</p>
+            </a>
+          </div>
+          <div class="col-3 icon_bar">
+            <a href="contactus.html" class="item tool-tip text-white">
+              <i class="far fa-comments"></i>
+                <p>Contact Us</p>
+            </a>
+          </div>
         </div>
       </div>
-    </div>
     </footer>
+  </div>
    <!-- Desktop mobile footer ends -->
 
    <!-- Desktop Footer  -->

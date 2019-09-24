@@ -2,8 +2,15 @@
 	.school-info div {
 		font-family:arial;
 		color: white;
-		font-size: 14px;
+		font-size: 17px;
 	}
+
+	.school_info {
+		font-family:arial;
+		color: white;
+		font-size: 17px;
+	}
+
 
 	.parent-guide span {
 		padding: 0px 5px 2px 5px;
@@ -336,13 +343,13 @@
 		margin-bottom: 15px;
 	}
 
-	.about_banner_yellow {
+	.about_banner{
 		width: 100%;
 		text-align: center;
-		border: solid 2px #ff33cc;
+		border: solid 2px #e4ff95;
 		font-size: 35px;
 		color: #fff;
-		background-color: #cc33ff;
+		background-color: #ff95e4;
 		padding:25px 25px;
 	}
 
@@ -381,12 +388,6 @@
 
 	.grey_bg_enrichment{
 			background-color: #d9d9d9;
-		}
-
-	.footer_banner_green_bg{
-		background-image: url(../img/footer_banner-green.jpg);
-		padding: 100px 20px;
-		background-repeat: no-repeat;
 		}
 
 		.bunny_footer_banner_bg{

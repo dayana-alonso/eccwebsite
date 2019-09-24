@@ -58,10 +58,6 @@
 		max-width: 100%;
 	}
 
-	.footer_block {
-		display: none !important;
-	}
-
 	.footer_text_white{
 		color: #fff !important;
 		font-size: 19px;
@@ -75,12 +71,12 @@
 		color: #fff !important;
 	}
 
-	.pd_icon_footer{
-		padding-left: 60px;
-	}
-
 	.desktop_scroll_display{
 		display: none;
+	}
+
+	.footer_links_mobile {
+		padding-top: 50px;
 	}
 }
 /*Social media block*/
@@ -118,7 +114,7 @@
 
 .footer_navigation{
 	display: none;
-	}
+}
 
 .happening_pb{
 	padding-bottom: 20px;
@@ -137,6 +133,24 @@
 .padding_bottom_about_mobile{
 	padding-bottom: 100px;
 }
+
+.educational_approach_bg_img{
+	background-image: url(../img/clouds_banner.jpg);
+	background-repeat: no-repeat;
+	background-position: left bottom;
+}
+
+.footer_mobile_bg{
+	background-image: url(../img/footer_mobile_banner.jpg);
+	padding: 100px 0px 20px 0px;
+	background-repeat: no-repeat;
+	width: 100%;
+}
+
+.contact_us_banner{
+	background-image: url(../img/clouds_banner.jpg);
+}
+
 /*social media block ends*/
 
 
