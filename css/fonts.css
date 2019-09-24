@@ -56,13 +56,11 @@ src: url(vendor/fonts/BubblegumSans-Regular.ttf);
 	font-size: 32px;
 	line-height: 1.25;
 	color: #233956;
-	
 }
 
 .emilia_text_bold_white{
 	font-family: BubblegumSans;
 	font-size: 35px;
-	
 	line-height: 1.25;
 	color: #fff;
 }
@@ -88,6 +86,46 @@ src: url(vendor/fonts/BubblegumSans-Regular.ttf);
 	color: #233956;
 	font-size: 17px;
 
+}
+
+.faq_bold_header{
+	font-family: BubblegumSans;
+	font-size: 57px;
+	font-weight: bold;
+	line-height: 1.25;
+	color: #e51669;
+}
+
+.faq_bold_text_pink_border{
+	font-family: BubblegumSans;
+	font-size: 32px;
+	font-weight: bold;
+	border-radius: 20px;
+  border: 2px solid #73AD21;
+  padding: 11px;
+	line-height: 1.25;
+	color: #e51669;
+}
+
+.faq_answer_text{
+	font-family:arial;
+	font-style: italic;
+	padding:6px 0px;
+	font-size: 15px !important;
+}
+
+.faq_bold_text{
+	font-family: BubblegumSans;
+	font-size: 37px;
+	font-weight: bold;
+	line-height: 1.25;
+	color: #233956;
+}
+
+.faq_text{
+	font-family:arial;
+	padding:6px 0px;
+	font-size: 17px !important;
 }
 /*TYPOGRAPHY ENDS*/
 

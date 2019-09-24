@@ -140,6 +140,14 @@
 	background-position: left bottom;
 }
 
+
+.faq_page_banner_img{
+	background-image: url(../img/clouds_banner.jpg);
+	background-repeat: no-repeat;
+	padding: 120px 0px 150px 0px;
+	background-position: left bottom;
+}
+
 .footer_mobile_bg{
 	background-image: url(../img/footer_mobile_banner.jpg);
 	padding: 100px 0px 20px 0px;
