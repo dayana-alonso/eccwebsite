@@ -128,16 +128,11 @@
 
 .pink_bg_enrichment{
 	background-color: #fabde7;
+
 }
 
 .padding_bottom_about_mobile{
 	padding-bottom: 100px;
-}
-
-.educational_approach_bg_img{
-	background-image: url(../img/clouds_banner.jpg);
-	background-repeat: no-repeat;
-	background-position: left bottom;
 }
 
 .faq_page_banner_img{
@@ -196,11 +191,17 @@
 		display: none;
 	}
 
-.banner_bg_aboutus_img{
-	background-image: url(../img/banner_bg_aboutus.jpg);
-	padding: 100px 0px 100px 0px;
-	background-repeat: no-repeat;
-	object-fit: cover;
-	background-size: 100%;
-}
+	.pink_bg_enrichment{
+		display: none;
+	}
+
+	.padding_bottom_about_mobile{
+		display: none;
+	}
+   
+	.educational_approach_bg_img{
+		background-image: url(../img/clouds_banner.jpg);
+		background-repeat: no-repeat;
+		background-position: left bottom;
+	}
 }
