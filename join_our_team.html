@@ -27,28 +27,182 @@
 
 
     <div class="container-fluid mt-30">
-        <div class="row justify-content-center copyright-text">
-            <div class="col-lg-10">
-                <div class="card">
-                    <div class="card-body">
-                        <div class="form-validation">
-                          <!--**********************************
-                              Content Personal Information
-                          ***********************************-->
-                          <h5 class="mt-30">Personal Information</h5>
-                            <form class="form-valide" action="#" method="post">
-                                <div class="form-group row mt-10">
-                                  <label class="col-lg-4 col-form-label box" for="val-username">First Name<span class="text-danger">*</span>
+      <div class="row justify-content-center copyright-text">
+          <div class="col-lg-10">
+              <div class="card">
+                  <div class="card-body">
+                      <div class="form-validation">
+                        <!--**********************************
+                            Content Personal Information
+                        ***********************************-->
+                        <h5 class="mt-30">Personal Information</h5>
+                          <form class="form-valide" action="#" method="post">
+                            <div class="form-group row mt-10">
+                              <label class="col-lg-4 col-form-label box" for="val-username">First Name<span class="text-danger">*</span>
+                              </label>
+                                <div class="col-lg-6">
+                                  <input type="text" class="form-control" name="val-username" placeholder="Enter First Name...">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                                <label class="col-lg-4 col-form-label" for="val-username">Last Name<span class="text-danger">*</span>
+                                </label>
+                                <div class="col-lg-6">
+                                    <input type="text" class="form-control" name="val-username" placeholder="Enter Last Name...">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                              <label class="col-lg-4 col-form-label" for="val-phoneus">Phone Number<span class="text-danger">*</span>
+                              </label>
+                                <div class="col-lg-6">
+                                  <input type="text" class="form-control" name="val-phoneus" placeholder="212-999-0000">
+                                </div>
+                            </div>
+
+                            <div class="form-group row">
+                              <label class="col-lg-4 col-form-label" for="val-email">Address <span class="text-danger">*</span>
+                              </label>
+                              <div class="col-lg-6">
+                                <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Enter Your Current Address...">
+                              </div>
+                            </div>
+                            
+                            <div class="form-group row">
+                              <label class="col-lg-4 col-form-label" for="val-email">City<span class="text-danger">*</span>
+                              </label>
+                              <div class="col-lg-6">
+                                <input type="text" class="form-control" name="val-email" placeholder="City...">
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-lg-4 col-form-label" for="val-email">State<span class="text-danger">*</span>
+                              </label>
+                              <div class="col-lg-6">
+                                  <input type="text" class="form-control" name="val-email" placeholder="State...">
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-lg-4 col-form-label" for="val-digits">Zip Code<span class="text-danger">*</span>
+                              </label>
+                                <div class="col-lg-6">
+                                  <input type="text" class="form-control" name="val-digits" placeholder="Zip Code">
+                                </div>  
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-lg-4 col-form-label" for="val-username">Date Of Birth<span class="text-danger">*</span>
+                              </label>
+                              <div class="col-lg-6">
+                                <input type="date" class="form-control" name="bday" placeholder="Date Of Birth">
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-lg-4 col-form-label" for="val-phoneus">Drivers License Number<span class="text-danger">*</span>
+                              </label>
+                              <div class="col-lg-6">
+                                <input type="text" class="form-control" name="val-phoneus" placeholder="DLN...">
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-lg-4 col-form-label" for="val-username">Expiration Date<span class="text-danger">*</span>
+                              </label>
+                              <div class="col-lg-6">
+                                <input type="date" class="form-control" name="bday" placeholder="Date Expiration...">
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-lg-4 col-form-label" for="val-phoneus">Social Security number<span class="text-danger">*</span>
+                              </label>
+                              <div class="col-lg-6">
+                                <input type="text" class="form-control" name="val-phoneus" placeholder="Social Security number...">
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-lg-4 col-form-label" for="val-email">Email <span class="text-danger">*</span>
+                              </label>
+                              <div class="col-lg-6">
+                                <input type="email" class="form-control" name="email" 
+                                pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter your valid email...">
+                              </div>
+                            </div>
+                             <!--**********************************
+                              Content Personal Information ends
+                            ***********************************-->
+                            <div class="form-group row">
+                              <label class="col-lg-4 col-form-label" for="val-skill">Desired Position:<span class="text-danger">*</span>
+                              </label>
+                              <div class="col-lg-6">
+                                <select class="form-control" id="val-skill" name="val-skill">
+                                    <option value="">Please select</option>
+                                    <option value="html">Lead Teacher</option>
+                                    <option value="css">Assistant Teacher</option>
+                                    <option value="javascript">Floater</option>
+                                    <option value="angular">Substitute Teacher</option>
+                                    <option value="angular">Volunteer</option>
+                                </select>
+                              </div>
+                            </div>
+                            <div class="form-group row">
+                              <label class="col-lg-4 col-form-label" for="val-username">Date Available to Begin Work:<span class="text-danger">*</span>
+                              </label>
+                              <div class="col-lg-6">
+                                <input type="date" class="form-control" name="bday" placeholder="Date Of Availability">
+                              </div>
+                            </div>
+
+                            <div class="form-group row">
+                              <label class="col-lg-4 col-form-label" for="val-skill">Interested in full time?<span class="text-danger">*</span>
+                              </label>
+                              <div class="col-lg-6">
+                                <select class="form-control" id="val-skill" name="val-skill">
+                                    <option value="">Please select</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                              </div>
+                            </div>
+
+                            <div class="form-group row">
+                              <label class="col-lg-4 col-form-label" for="val-skill">Interested in part time?<span class="text-danger">*</span>
+                              </label>
+                              <div class="col-lg-6">
+                                <select class="form-control" id="val-skill" name="val-skill">
+                                    <option value="">Please select</option>
+                                    <option value="yes">Yes</option>
+                                    <option value="no">No</option>
+                                </select>
+                              </div>
+                            </div>
+                        <!--**********************************
+                          Content Employment History
+                        ***********************************-->
+                          <div class="form-validation">
+                            <h5 class="mt-30">Employment History</h5>
+                              <p class="mt-10">
+                                Please enter information for your three most recent employers
+                              </p>
+                            <h6>Current / most recent employer</h6>
+                              <form class="form-valide" action="#" method="post">
+                                <div class="form-group row mt-30">
+                                  <label class="col-lg-4 col-form-label" for="val-username"><b>Employer name</b><span class="text-danger">*</span>
                                   </label>
                                     <div class="col-lg-6">
-                                      <input type="text" class="form-control" name="val-username" placeholder="Enter First Name...">
+                                      <input type="text" class="form-control" name="val-username" placeholder="Employer name...">
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-username">Last Name<span class="text-danger">*</span>
-                                    </label>
+                                  <label class="col-lg-4 col-form-label" for="val-email">Manager Name<span class="text-danger">*</span>
+                                  </label>
                                     <div class="col-lg-6">
-                                        <input type="text" class="form-control" name="val-username" placeholder="Enter Last Name...">
+                                      <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Manager name...">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label class="col-lg-4 col-form-label" for="val-email">Address <span class="text-danger">*</span>
+                                  </label>
+                                    <div class="col-lg-6">
+                                      <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Address...">
                                     </div>
                                 </div>
                                 <div class="form-group row">
@@ -59,316 +213,167 @@
                                     </div>
                                 </div>
                                 <div class="form-group row">
-                                  <label class="col-lg-4 col-form-label" for="val-email">Address <span class="text-danger">*</span>
-                                  </label>
-                                  <div class="col-lg-6">
-                                      <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Enter Your Current Address...">
-                                  </div>
-                                </div>
-                                <div class="form-group row">
-                                  <label class="col-lg-4 col-form-label" for="val-email">City<span class="text-danger">*</span>
-                                  </label>
-                                  <div class="col-lg-6">
-                                      <input type="text" class="form-control" name="val-email" placeholder="City...">
-                                  </div>
-                                </div>
-                                <div class="form-group row">
-                                  <label class="col-lg-4 col-form-label" for="val-email">State<span class="text-danger">*</span>
-                                  </label>
-                                  <div class="col-lg-6">
-                                      <input type="text" class="form-control" name="val-email" placeholder="State...">
-                                  </div>
-                                </div>
-                                <div class="form-group row">
-                                  <label class="col-lg-4 col-form-label" for="val-digits">Zip Code<span class="text-danger">*</span>
+                                  <label class="col-lg-4 col-form-label" for="val-email">Position/Job<span class="text-danger">*</span>
                                   </label>
                                     <div class="col-lg-6">
-                                      <input type="text" class="form-control" name="val-digits" placeholder="Zip Code">
-                                    </div>  
+                                      <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Position / Job...">
+                                    </div>
                                 </div>
                                 <div class="form-group row">
-                                  <label class="col-lg-4 col-form-label" for="val-username">Date Of Birth<span class="text-danger">*</span>
+                                  <label class="col-lg-4 col-form-label" for="val-username"> Start Date Of Employment <span class="text-danger">*</span>
                                   </label>
-                                  <div class="col-lg-6">
-                                    <input type="date" class="form-control" name="bday" placeholder="Date Of Birth">
-                                  </div>
+                                    <div class="col-lg-6">
+                                      <input type="date" class="form-control" name="bday" placeholder="Date of employment to">
+                                    </div>
                                 </div>
                                 <div class="form-group row">
-                                  <label class="col-lg-4 col-form-label" for="val-phoneus">Drivers License number<span class="text-danger">*</span>
-                                </label>
-                                  <div class="col-lg-6">
-                                    <input type="text" class="form-control" name="val-phoneus" placeholder="DLN...">
-                                  </div>
-                                </div>
-                                <div class="form-group row">
-                                  <label class="col-lg-4 col-form-label" for="val-username">Expiration Date<span class="text-danger">*</span>
+                                  <label class="col-lg-4 col-form-label" for="val-username">End Date Of Employment <span class="text-danger">*</span>
                                   </label>
-                                  <div class="col-lg-6">
-                                    <input type="date" class="form-control" name="bday" placeholder="Date Expiration...">
-                                  </div>
+                                    <div class="col-lg-6">
+                                      <input type="date" class="form-control" name="bday" placeholder="Date of employment to">
+                                    </div>
                                 </div>
                                 <div class="form-group row">
-                                  <label class="col-lg-4 col-form-label" for="val-phoneus">Social Security number<span class="text-danger">*</span>
-                                </label>
-                                  <div class="col-lg-6">
-                                    <input type="text" class="form-control" name="val-phoneus" placeholder="Social Security number...">
-                                  </div>
-                                </div>
-                                <div class="form-group row">
-                                  <label class="col-lg-4 col-form-label" for="val-email">Email <span class="text-danger">*</span>
+                                  <label class="col-lg-4 col-form-label" for="val-email">Reason for Leaving<span class="text-danger">*</span>
                                   </label>
-                                  <div class="col-lg-6">
-                                    <input type="email" class="form-control" name="email" 
-                                    pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" placeholder="Enter your valid email...">
-                                  </div>
+                                    <div class="col-lg-6">
+                                      <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Text Here...">
+                                    </div>
                                 </div>
-                                 <!--**********************************
-                                  Content Personal Information ends
-                                ***********************************-->
-                                <div class="form-group row">
-                                  <label class="col-lg-4 col-form-label" for="val-skill">Desired Position:<span class="text-danger">*</span>
+                                <div class="form-group row mt-30">
+                                  <label class="col-lg-4 col-form-label" for="val-username"><b>Employer name</b><span class="text-danger">*</span>
                                   </label>
-                                  <div class="col-lg-6">
-                                    <select class="form-control" id="val-skill" name="val-skill">
-                                        <option value="">Please select</option>
-                                        <option value="html">Lead Teacher</option>
-                                        <option value="css">Assistant Teacher</option>
-                                        <option value="javascript">Floater</option>
-                                        <option value="angular">Substitute Teacher</option>
-                                        <option value="angular">Volunteer</option>
-                                    </select>
-                                  </div>
+                                    <div class="col-lg-6">
+                                      <input type="text" class="form-control" name="val-username" placeholder="Employer name...">
+                                    </div>
                                 </div>
                                 <div class="form-group row">
-                                  <label class="col-lg-4 col-form-label" for="val-username">Date Available to Begin Work:<span class="text-danger">*</span>
+                                  <label class="col-lg-4 col-form-label" for="val-email">Manager Name<span class="text-danger">*</span>
                                   </label>
-                                  <div class="col-lg-6">
-                                    <input type="date" class="form-control" name="bday" placeholder="Date Of Availability">
-                                  </div>
+                                    <div class="col-lg-6">
+                                      <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Manager name...">
+                                    </div>
                                 </div>
+                                <div class="form-group row">
+                                  <label class="col-lg-4 col-form-label" for="val-email">Address <span class="text-danger">*</span>
+                                  </label>
+                                    <div class="col-lg-6">
+                                      <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Address...">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label class="col-lg-4 col-form-label" for="val-phoneus">Phone Number<span class="text-danger">*</span>
+                                  </label>
+                                    <div class="col-lg-6">
+                                      <input type="text" class="form-control" name="val-phoneus" placeholder="212-999-0000">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label class="col-lg-4 col-form-label" for="val-email">Position/Job<span class="text-danger">*</span>
+                                  </label>
+                                    <div class="col-lg-6">
+                                      <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Position / Job...">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label class="col-lg-4 col-form-label" for="val-username"> Start Date Of Employment <span class="text-danger">*</span>
+                                  </label>
+                                    <div class="col-lg-6">
+                                      <input type="date" class="form-control" name="bday" placeholder="Date of employment to">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label class="col-lg-4 col-form-label" for="val-username">End Date Of Employment <span class="text-danger">*</span>
+                                  </label>
+                                    <div class="col-lg-6">
+                                      <input type="date" class="form-control" name="bday" placeholder="Date of employment to">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label class="col-lg-4 col-form-label" for="val-email">Reason for Leaving<span class="text-danger">*</span>
+                                  </label>
+                                    <div class="col-lg-6">
+                                      <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Text Here...">
+                                    </div>
+                                </div>
+                                   <div class="form-group row mt-30">
+                                  <label class="col-lg-4 col-form-label" for="val-username"><b>Employer name</b><span class="text-danger">*</span>
+                                  </label>
+                                    <div class="col-lg-6">
+                                      <input type="text" class="form-control" name="val-username" placeholder="Employer name...">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label class="col-lg-4 col-form-label" for="val-email">Manager Name<span class="text-danger">*</span>
+                                  </label>
+                                    <div class="col-lg-6">
+                                      <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Manager name...">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label class="col-lg-4 col-form-label" for="val-email">Address <span class="text-danger">*</span>
+                                  </label>
+                                    <div class="col-lg-6">
+                                      <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Address...">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label class="col-lg-4 col-form-label" for="val-phoneus">Phone Number<span class="text-danger">*</span>
+                                  </label>
+                                    <div class="col-lg-6">
+                                      <input type="text" class="form-control" name="val-phoneus" placeholder="212-999-0000">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label class="col-lg-4 col-form-label" for="val-email">Position/Job<span class="text-danger">*</span>
+                                  </label>
+                                    <div class="col-lg-6">
+                                      <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Position / Job...">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label class="col-lg-4 col-form-label" for="val-username"> Start Date Of Employment <span class="text-danger">*</span>
+                                  </label>
+                                    <div class="col-lg-6">
+                                      <input type="date" class="form-control" name="bday" placeholder="Date of employment to">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label class="col-lg-4 col-form-label" for="val-username">End Date Of Employment <span class="text-danger">*</span>
+                                  </label>
+                                    <div class="col-lg-6">
+                                      <input type="date" class="form-control" name="bday" placeholder="Date of employment to">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label class="col-lg-4 col-form-label" for="val-email">Reason for Leaving<span class="text-danger">*</span>
+                                  </label>
+                                    <div class="col-lg-6">
+                                      <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Text Here...">
+                                    </div>
+                                </div>
+                              </form>
+                        <!--**********************************
+                          Content Employment History end
+                        ***********************************-->
 
+                        <!--**********************************
+                          Content Education History
+                        ***********************************-->
+                        <div class="form-validation">
+                            <h5 class="mt-30">Education History </h5>
+                              <p class="mt-10">
+                              </p>
+                            <h6>Elementary</h6>
+                              <form class="form-valide" action="#" method="post">
                                 <div class="form-group row">
-                                  <label class="col-lg-4 col-form-label" for="val-skill">Interested in full time?<span class="text-danger">*</span>
+                                  <label class="col-lg-4 col-form-label" for="val-username">Elementary Name<span class="text-danger">*</span>
                                   </label>
-                                  <div class="col-lg-6">
-                                    <select class="form-control" id="val-skill" name="val-skill">
-                                        <option value="">Please select</option>
-                                        <option value="yes">Yes</option>
-                                        <option value="no">No</option>
-                                    </select>
-                                  </div>
+                                    <div class="col-lg-6">
+                                      <input type="text" class="form-control" name="val-username" placeholder="Name of Elementary...">
+                                    </div>
                                 </div>
-
-                                <div class="form-group row">
-                                  <label class="col-lg-4 col-form-label" for="val-skill">Interested in part time?<span class="text-danger">*</span>
-                                  </label>
-                                  <div class="col-lg-6">
-                                    <select class="form-control" id="val-skill" name="val-skill">
-                                        <option value="">Please select</option>
-                                        <option value="yes">Yes</option>
-                                        <option value="no">No</option>
-                                    </select>
-                                  </div>
-                                </div>
-                          <!--**********************************
-                            Content Employment History
-                          ***********************************-->
-                            <div class="form-validation">
-                              <h5 class="mt-30">Employment History</h5>
-                                <p class="mt-10">
-                                  Please enter information for your three most recent employers
-                                </p>
-                              <h6>Current / most recent employer</h6>
-                                <form class="form-valide" action="#" method="post">
-                                  <div class="form-group row mt-30">
-                                    <label class="col-lg-4 col-form-label" for="val-username"><b>Employer name</b><span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="text" class="form-control" name="val-username" placeholder="Employer name...">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-email">Manager Name<span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Manager name...">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-email">Address <span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Address...">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-phoneus">Phone Number<span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="text" class="form-control" name="val-phoneus" placeholder="212-999-0000">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-email">Position/Job<span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Position / Job...">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-username"> Start Date Of Employment <span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="date" class="form-control" name="bday" placeholder="Date of employment to">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-username">End Date Of Employment <span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="date" class="form-control" name="bday" placeholder="Date of employment to">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-email">Reason for Leaving<span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Text Here...">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row mt-30">
-                                    <label class="col-lg-4 col-form-label" for="val-username"><b>Employer name</b><span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="text" class="form-control" name="val-username" placeholder="Employer name...">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-email">Manager Name<span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Manager name...">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-email">Address <span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Address...">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-phoneus">Phone Number<span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="text" class="form-control" name="val-phoneus" placeholder="212-999-0000">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-email">Position/Job<span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Position / Job...">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-username"> Start Date Of Employment <span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="date" class="form-control" name="bday" placeholder="Date of employment to">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-username">End Date Of Employment <span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="date" class="form-control" name="bday" placeholder="Date of employment to">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-email">Reason for Leaving<span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Text Here...">
-                                      </div>
-                                  </div>
-                                     <div class="form-group row mt-30">
-                                    <label class="col-lg-4 col-form-label" for="val-username"><b>Employer name</b><span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="text" class="form-control" name="val-username" placeholder="Employer name...">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-email">Manager Name<span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Manager name...">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-email">Address <span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Address...">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-phoneus">Phone Number<span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="text" class="form-control" name="val-phoneus" placeholder="212-999-0000">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-email">Position/Job<span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Position / Job...">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-username"> Start Date Of Employment <span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="date" class="form-control" name="bday" placeholder="Date of employment to">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-username">End Date Of Employment <span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="date" class="form-control" name="bday" placeholder="Date of employment to">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-email">Reason for Leaving<span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Text Here...">
-                                      </div>
-                                  </div>
-                          <!--**********************************
-                            Content Employment History end
-                          ***********************************-->
-
-                          <!--**********************************
-                            Content Education History
-                          ***********************************-->
-                          <div class="form-validation">
-                              <h5 class="mt-30">Education History </h5>
-                                <p class="mt-10">
-                                </p>
-                              <h6>Elementary</h6>
-                                <form class="form-valide" action="#" method="post">
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-username">Elementary Name<span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="text" class="form-control" name="val-username" placeholder="Name of Elementary...">
-                                      </div>
-                                  </div>
-                                  
+                                
                                 <h6>High School</h6>
                                   <form class="form-valide" action="#" method="post">
                                     <div class="form-group row">
@@ -433,302 +438,326 @@
                                         <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Diploma/ Degree/ Certificate...">
                                       </div>
                                   </div>
+                                </form>
 
-                                <h6>Other Diploma/ Degree/ Certificate</h6>
-                                  <form class="form-valide" action="#" method="post">
-                                    <div class="form-group row">
-                                      <label class="col-lg-4 col-form-label" for="val-username">Areas of Special Study, Applicable Experience or Talents & Child Care Training<span class="text-danger">*</span>
-                                      </label>
-                                        <div class="col-lg-6">
-                                            <textarea class="form-control" name="val-suggestions" rows="5" placeholder="text here"></textarea>
-                                        </div>
-                                    </div>
+                              <h6>Other Diploma/ Degree/ Certificate</h6>
+                                <form class="form-valide" action="#" method="post">
+                                  <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-username">Areas of Special Study, Applicable Experience or Talents & Child Care Training<span class="text-danger">*</span>
+                                    </label>
+                                      <div class="col-lg-6">
+                                          <textarea class="form-control" name="val-suggestions" rows="5" placeholder="text here"></textarea>
+                                      </div>
                                   </div>
+                                </form>
+                        <!--**********************************
+                          Content Education History end
+                        ***********************************-->
+
+                         <!--**********************************
+                          Content Language end
+                        ***********************************-->
+                              <h6 class="mt-30">Multiple Languages</h6>
+                                <form class="form-valide" action="#" method="post">
+                                  <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-username">Languages Spoken and/or Written:<span class="text-danger">*</span>
+                                    </label>
+                                      <div class="col-lg-6">
+                                          <textarea class="form-control" name="val-suggestions" rows="5" placeholder="text here"></textarea>
+                                      </div>
+                                  </div>
+                                </div> 
+                      <!--**********************************
+                          Content Language 
+                        ***********************************-->
+
+                       <!--**********************************
+                        Content Child Care Training
+                      ***********************************-->
+                            <h5>Child Care Training</h5>
+                              <p>
+                                List all courses, workshops, and conferences related to child <br>development and early childhood education. Attach additional pages if necessary.<br> Attach copies of certificates received.
+                              </p>
+                                <form class="form-valide" action="#" method="post">
+                                  <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-username"><b>Title of course/ Workshop/ Conference</b><span class="text-danger">*</span>
+                                    </label>
+                                      <div class="col-lg-6">
+                                        <input type="text" class="form-control" name="val-username" placeholder="text here...">
+                                      </div>
+                                  </div>
+                                </form>
+
+                                <form class="form-valide" action="#" method="post">
+                                  <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-username">Sponsor<span class="text-danger">*</span>
+                                    </label>
+                                      <div class="col-lg-6">
+                                        <input type="text" class="form-control" name="val-username" placeholder="text here...">
+                                      </div>
+                                  </div>
+                                </form>
+                                <div class="form-group row">
+                                  <label class="col-lg-4 col-form-label" for="val-username"> Start Date<span class="text-danger">*</span>
+                                  </label>
+                                    <div class="col-lg-6">
+                                      <input type="date" class="form-control" name="bday" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label class="col-lg-4 col-form-label" for="val-username">End Date<span class="text-danger">*</span>
+                                  </label>
+                                    <div class="col-lg-6">
+                                      <input type="date" class="form-control" name="bday" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label class="col-lg-4 col-form-label" for="val-digits">Number of hours<span class="text-danger">*</span>
+                                  </label>
+                                  <div class="col-lg-6">
+                                      <input type="text" class="form-control" id="val-digits" name="val-digits" placeholder="40">
+                                  </div>
+                                </div>
+                                <form class="form-valide" action="#" method="post">
+                                  <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-username"><b>Title of course/ Workshop/ Conference</b><span class="text-danger">*</span>
+                                    </label>
+                                      <div class="col-lg-6">
+                                        <input type="text" class="form-control" name="val-username" placeholder="text here...">
+                                      </div>
+                                  </div>
+
+                                <form class="form-valide" action="#" method="post">
+                                  <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-username">Sponsor<span class="text-danger">*</span>
+                                    </label>
+                                      <div class="col-lg-6">
+                                        <input type="text" class="form-control" name="val-username" placeholder="text here...">
+                                      </div>
+                                  </div>
+                                <div class="form-group row">
+                                  <label class="col-lg-4 col-form-label" for="val-username"> Start Date<span class="text-danger">*</span>
+                                  </label>
+                                    <div class="col-lg-6">
+                                      <input type="date" class="form-control" name="bday" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label class="col-lg-4 col-form-label" for="val-username">End Date<span class="text-danger">*</span>
+                                  </label>
+                                    <div class="col-lg-6">
+                                      <input type="date" class="form-control" name="bday" placeholder="">
+                                    </div>
+                                </div>
+                                <div class="form-group row">
+                                  <label class="col-lg-4 col-form-label" for="val-digits">Number of hours<span class="text-danger">*</span>
+                                  </label>
+                                  <div class="col-lg-6">
+                                      <input type="text" class="form-control" id="val-digits" name="val-digits" placeholder="40">
+                                  </div>
+                                </div>
+                              <!--**********************************
+                              Content Child Care Training end
+                            ***********************************-->
+
+                            <!--**********************************
+                              Content References 
+                            ***********************************-->
+                               <h5>References</h5>
+                                  <p>
+                                    Provide 3 professional references (no family/friends).<br>List 1 former employer. Addresses must be complete & accurate.
+                                  </p>
+                                <form class="form-valide" action="#" method="post">
+                                  <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-username"><b>Name</b><span class="text-danger">*</span>
+                                    </label>
+                                      <div class="col-lg-6">
+                                        <input type="text" class="form-control" name="val-username" placeholder="Full Name...">
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-email">Address <span class="text-danger">*</span>
+                                    </label>
+                                      <div class="col-lg-6">
+                                        <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Address...">
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-phoneus">Phone Number<span class="text-danger">*</span>
+                                    </label>
+                                      <div class="col-lg-6">
+                                        <input type="text" class="form-control" name="val-phoneus" placeholder="212-999-0000">
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-email">Relationship<span class="text-danger">*</span>
+                                    </label>
+                                      <div class="col-lg-6">
+                                        <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Text Here...">
+                                      </div>
+                                  </div>
+
+                                <!--**********************************
+                                Reference 1 end 
+                              ***********************************-->
+                                
+                                <form class="form-valide" action="#" method="post">
+                                  <div class="form-group row mt-30">
+                                    <label class="col-lg-4 col-form-label" for="val-username"><b>Name</b><span class="text-danger">*</span>
+                                    </label>
+                                      <div class="col-lg-6">
+                                        <input type="text" class="form-control" name="val-username" placeholder="Full Name...">
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-email">Address <span class="text-danger">*</span>
+                                    </label>
+                                      <div class="col-lg-6">
+                                        <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Address...">
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-phoneus">Phone Number<span class="text-danger">*</span>
+                                    </label>
+                                      <div class="col-lg-6">
+                                        <input type="text" class="form-control" name="val-phoneus" placeholder="212-999-0000">
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-email">Relationship<span class="text-danger">*</span>
+                                    </label>
+                                      <div class="col-lg-6">
+                                        <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Text Here...">
+                                      </div>
+                                  </div>
+                              <!--**********************************
+                                Reference 2 end 
+                              ***********************************-->
+                                
+                                <form class="form-valide" action="#" method="post">
+                                  <div class="form-group row mt-30">
+                                    <label class="col-lg-4 col-form-label" for="val-username"><b>Name</b><span class="text-danger">*</span>
+                                    </label>
+                                      <div class="col-lg-6">
+                                        <input type="text" class="form-control" name="val-username" placeholder="Full Name...">
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-email">Address <span class="text-danger">*</span>
+                                    </label>
+                                      <div class="col-lg-6">
+                                        <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Address...">
+                                      </div>
+                                  </div>
+                                  <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-phoneus">Phone Number<span class="text-danger">*</span>
+                                    </label>
+                                      <div class="col-lg-6">
+                                        <input type="text" class="form-control" name="val-phoneus" placeholder="212-999-0000">
+                                      </div>
+                                  </div>
+        
+                                  <div class="form-group row">
+                                    <label class="col-lg-4 col-form-label" for="val-email">Relationship<span class="text-danger">*</span>
+                                    </label>
+                                      <div class="col-lg-6">
+                                        <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Text Here...">
+                                      </div>
+                                  </div>
+                           <!--**********************************
+                                Reference 3 end 
+                            ***********************************-->
+
                           <!--**********************************
-                            Content Education History end
+                            Content References end
                           ***********************************-->
 
                            <!--**********************************
-                            Content Language end
-                          ***********************************-->
-                                <h6 class="mt-30">Multiple Languages</h6>
-                                  <form class="form-valide" action="#" method="post">
-                                    <div class="form-group row">
-                                      <label class="col-lg-4 col-form-label" for="val-username">Languages Spoken and/or Written:<span class="text-danger">*</span>
-                                      </label>
-                                        <div class="col-lg-6">
-                                            <textarea class="form-control" name="val-suggestions" rows="5" placeholder="text here"></textarea>
-                                        </div>
-                                    </div>
-                                  </div> 
-                        <!--**********************************
-                            Content Language 
-                          ***********************************-->
-
-                         <!--**********************************
-                          Content Child Care Training
-                        ***********************************-->
-                              <h5>Child Care Training</h5>
-                                <p>
-                                  List all courses, workshops, and conferences related to child <br>development and early childhood education. Attach additional pages if necessary.<br> Attach copies of certificates received.
-                                </p>
-                                  <form class="form-valide" action="#" method="post">
-                                    <div class="form-group row">
-                                      <label class="col-lg-4 col-form-label" for="val-username"><b>Title of course/ Workshop/ Conference</b><span class="text-danger">*</span>
-                                      </label>
-                                        <div class="col-lg-6">
-                                          <input type="text" class="form-control" name="val-username" placeholder="text here...">
-                                        </div>
-                                    </div>
-                                  </form>
-
-                                  <form class="form-valide" action="#" method="post">
-                                    <div class="form-group row">
-                                      <label class="col-lg-4 col-form-label" for="val-username">Sponsor<span class="text-danger">*</span>
-                                      </label>
-                                        <div class="col-lg-6">
-                                          <input type="text" class="form-control" name="val-username" placeholder="text here...">
-                                        </div>
-                                    </div>
-                                  </form>
+                              Content Availability
+                            ***********************************-->
+                               <h5>Availability</h5>
+                                  <p>
+                                    We employ both regularly scheduled and on-call teachers and on-call teachers. Please indicate your availability and interest in these two types of positions in the tables below between the hours of <b>6:00am-12:00am (midnight).</b>
+                                  </p>
+                                <form class="form-valide" action="#" method="post">
+                                  <p>
+                                    Please list all times you are available and interested in <b>working regularly </b> in the table below:
+                                  </p>
                                   <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-username"> Start Date<span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="date" class="form-control" name="bday" placeholder="">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-username">End Date<span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="date" class="form-control" name="bday" placeholder="">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-digits">Number of hours<span class="text-danger">*</span>
-                                    </label>
+                                  <label class="col-lg-4 col-form-label" for="val-username"><b>Mon-Fri</b><span class="text-danger">*</span>
+                                  </label>
                                     <div class="col-lg-6">
-                                        <input type="text" class="form-control" id="val-digits" name="val-digits" placeholder="40">
+                                      <input type="text" class="form-control" name="val-username" placeholder="List the weekdays you are available and interested in working...">
                                     </div>
-                                  </div>
-                                  <form class="form-valide" action="#" method="post">
-                                    <div class="form-group row">
-                                      <label class="col-lg-4 col-form-label" for="val-username"><b>Title of course/ Workshop/ Conference</b><span class="text-danger">*</span>
-                                      </label>
-                                        <div class="col-lg-6">
-                                          <input type="text" class="form-control" name="val-username" placeholder="text here...">
-                                        </div>
-                                    </div>
-
-                                  <form class="form-valide" action="#" method="post">
-                                    <div class="form-group row">
-                                      <label class="col-lg-4 col-form-label" for="val-username">Sponsor<span class="text-danger">*</span>
-                                      </label>
-                                        <div class="col-lg-6">
-                                          <input type="text" class="form-control" name="val-username" placeholder="text here...">
-                                        </div>
-                                    </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-username"> Start Date<span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="date" class="form-control" name="bday" placeholder="">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-username">End Date<span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="date" class="form-control" name="bday" placeholder="">
-                                      </div>
-                                  </div>
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-digits">Number of hours<span class="text-danger">*</span>
-                                    </label>
+                                </div>
+                                 <div class="form-group row">
+                                  <label class="col-lg-4 col-form-label" for="val-username"><b>Weekends</b><span class="text-danger">*</span>
+                                  </label>
                                     <div class="col-lg-6">
-                                        <input type="text" class="form-control" id="val-digits" name="val-digits" placeholder="40">
+                                      <input type="text" class="form-control" name="val-username" placeholder="List the weekends you are available and interested in working...">
                                     </div>
-                                  </div>
-                                <!--**********************************
-                                Content Child Care Training end
-                              ***********************************-->
-
-                              <!--**********************************
-                                Content References 
-                              ***********************************-->
-                                 <h5>References</h5>
-                                    <p>
-                                      Provide 3 professional references (no family/friends).<br>List 1 former employer. Addresses must be complete & accurate.
-                                    </p>
-                                  <form class="form-valide" action="#" method="post">
+                                </div>
+                                <form class="form-valide" action="#" method="post">
+                                  <p>
+                                    Please list all times you are available and interested in <b>being on call </b>in the table below:
+                                  </p>
                                     <div class="form-group row">
-                                      <label class="col-lg-4 col-form-label" for="val-username"><b>Name</b><span class="text-danger">*</span>
+                                      <label class="col-lg-4 col-form-label" for="val-username"><b>Mon-Fri</b><span class="text-danger">*</span>
                                       </label>
                                         <div class="col-lg-6">
-                                          <input type="text" class="form-control" name="val-username" placeholder="Full Name...">
+                                          <input type="text" class="form-control" name="val-username" placeholder="List the weekdays you are available and interested in working...">
                                         </div>
                                     </div>
                                     <div class="form-group row">
-                                      <label class="col-lg-4 col-form-label" for="val-email">Address <span class="text-danger">*</span>
+                                      <label class="col-lg-4 col-form-label" for="val-username"><b>Weekends</b><span class="text-danger">*</span>
                                       </label>
                                         <div class="col-lg-6">
-                                          <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Address...">
+                                          <input type="text" class="form-control" name="val-username" placeholder="List the weekends you are available and interested in working...">
                                         </div>
                                     </div>
-                                    <div class="form-group row">
-                                      <label class="col-lg-4 col-form-label" for="val-phoneus">Phone Number<span class="text-danger">*</span>
-                                      </label>
-                                        <div class="col-lg-6">
-                                          <input type="text" class="form-control" name="val-phoneus" placeholder="212-999-0000">
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                      <label class="col-lg-4 col-form-label" for="val-email">Relationship<span class="text-danger">*</span>
-                                      </label>
-                                        <div class="col-lg-6">
-                                          <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Text Here...">
-                                        </div>
-                                    </div>
-
-                                  <!--**********************************
-                                  Reference 1 end 
-                                ***********************************-->
-                                  
-                                  <form class="form-valide" action="#" method="post">
-                                    <div class="form-group row mt-30">
-                                      <label class="col-lg-4 col-form-label" for="val-username"><b>Name</b><span class="text-danger">*</span>
-                                      </label>
-                                        <div class="col-lg-6">
-                                          <input type="text" class="form-control" name="val-username" placeholder="Full Name...">
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                      <label class="col-lg-4 col-form-label" for="val-email">Address <span class="text-danger">*</span>
-                                      </label>
-                                        <div class="col-lg-6">
-                                          <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Address...">
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                      <label class="col-lg-4 col-form-label" for="val-phoneus">Phone Number<span class="text-danger">*</span>
-                                      </label>
-                                        <div class="col-lg-6">
-                                          <input type="text" class="form-control" name="val-phoneus" placeholder="212-999-0000">
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                      <label class="col-lg-4 col-form-label" for="val-email">Relationship<span class="text-danger">*</span>
-                                      </label>
-                                        <div class="col-lg-6">
-                                          <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Text Here...">
-                                        </div>
-                                    </div>
-                                <!--**********************************
-                                  Reference 2 end 
-                                ***********************************-->
-                                  
-                                  <form class="form-valide" action="#" method="post">
-                                    <div class="form-group row mt-30">
-                                      <label class="col-lg-4 col-form-label" for="val-username"><b>Name</b><span class="text-danger">*</span>
-                                      </label>
-                                        <div class="col-lg-6">
-                                          <input type="text" class="form-control" name="val-username" placeholder="Full Name...">
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                      <label class="col-lg-4 col-form-label" for="val-email">Address <span class="text-danger">*</span>
-                                      </label>
-                                        <div class="col-lg-6">
-                                          <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Address...">
-                                        </div>
-                                    </div>
-                                    <div class="form-group row">
-                                      <label class="col-lg-4 col-form-label" for="val-phoneus">Phone Number<span class="text-danger">*</span>
-                                      </label>
-                                        <div class="col-lg-6">
-                                          <input type="text" class="form-control" name="val-phoneus" placeholder="212-999-0000">
-                                        </div>
-                                    </div>
-          
-                                    <div class="form-group row">
-                                      <label class="col-lg-4 col-form-label" for="val-email">Relationship<span class="text-danger">*</span>
-                                      </label>
-                                        <div class="col-lg-6">
-                                          <input type="text" class="form-control" pattern="[a-z0-9]" name="val-email" placeholder="Text Here...">
-                                        </div>
-                                    </div>
-                             <!--**********************************
-                                  Reference 3 end 
-                              ***********************************-->
-
+                                </form>
                             <!--**********************************
-                              Content References end
+                              Content Availability
                             ***********************************-->
 
-                             <!--**********************************
-                                Content Availability
-                              ***********************************-->
-                                 <h5>Availability</h5>
-                                    <p>
-                                      We employ both regularly scheduled and on-call teachers and on-call teachers. Please indicate your availability and interest in these two types of positions in the tables below between the hours of <b>6:00am-12:00am (midnight).</b>
-                                    </p>
+                            <!--**********************************
+                              Content  Age group interests 
+                            ***********************************-->
+                               <h5> Age group interests</h5>
+                                  <p>
+                                    Please select your interest level in working with each of the following age groups and programs. <br><b>All employees must work with all age groups and or be willing to do so. This is only to know your age groups of interest.</b>
+                                  </p>
+                                <h6>Infants (0-18 months)</h6>
                                   <form class="form-valide" action="#" method="post">
-                                    <p>
-                                      Please list all times you are available and interested in <b>working regularly </b> in the table below:
-                                    </p>
                                     <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-username"><b>Mon-Fri</b><span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="text" class="form-control" name="val-username" placeholder="List the weekdays you are available and interested in working...">
+                                      <label class="col-lg-4 col-form-label" for="val-username">
+                                      </label>
+                                        <div class="col-lg-6">
+                                          <div class="basic-form mt-30">
+                                            <form>
+                                              <div class="form-group">
+                                                <label class="radio-inline mr-3">
+                                                    <input type="radio" name="optradio"> Very  interested</label>
+                                                <label class="radio-inline mr-3">
+                                                    <input type="radio" name="optradio"> Moderately Interested</label>
+                                                <label class="radio-inline">
+                                                    <input type="radio" name="optradio"> Least interested</label>
+                                              </div>
+                                            </form>
+                                          </div>
+                                        </div>
                                       </div>
-                                  </div>
-                                   <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label" for="val-username"><b>Weekends</b><span class="text-danger">*</span>
-                                    </label>
-                                      <div class="col-lg-6">
-                                        <input type="text" class="form-control" name="val-username" placeholder="List the weekends you are available and interested in working...">
-                                      </div>
-                                  </div>
+                                    </form>
+                                
+                        
+                                <h6>Toddlers (18-30 months)</h6>
                                   <form class="form-valide" action="#" method="post">
-                                    <p>
-                                      Please list all times you are available and interested in <b>being on call </b>in the table below:
-                                    </p>
-                                      <div class="form-group row">
-                                        <label class="col-lg-4 col-form-label" for="val-username"><b>Mon-Fri</b><span class="text-danger">*</span>
-                                        </label>
-                                          <div class="col-lg-6">
-                                            <input type="text" class="form-control" name="val-username" placeholder="List the weekdays you are available and interested in working...">
-                                          </div>
-                                      </div>
-                                      <div class="form-group row">
-                                        <label class="col-lg-4 col-form-label" for="val-username"><b>Weekends</b><span class="text-danger">*</span>
-                                        </label>
-                                          <div class="col-lg-6">
-                                            <input type="text" class="form-control" name="val-username" placeholder="List the weekends you are available and interested in working...">
-                                          </div>
-                                      </div>
-                                  </form>
-                              <!--**********************************
-                                Content Availability
-                              ***********************************-->
-
-                              <!--**********************************
-                                Content  Age group interests 
-                              ***********************************-->
-                                 <h5> Age group interests</h5>
-                                    <p>
-                                      Please select your interest level in working with each of the following age groups and programs. <br><b>All employees must work with all age groups and or be willing to do so. This is only to know your age groups of interest.</b>
-                                    </p>
-                                  <h6>Infants (0-18 months)</h6>
-                                    <form class="form-valide" action="#" method="post">
-                                      <div class="form-group row">
-                                        <label class="col-lg-4 col-form-label" for="val-username">
-                                        </label>
-                                          <div class="col-lg-6">
-                                            <div class="basic-form mt-30">
-                                              <form>
+                                    <div class="form-group row">
+                                      <label class="col-lg-4 col-form-label" for="val-username">
+                                      </label>
+                                        <div class="col-lg-6">
+                                          <div class="basic-form mt-30">
+                                            <form>
                                                 <div class="form-group">
                                                   <label class="radio-inline mr-3">
                                                       <input type="radio" name="optradio"> Very  interested</label>
@@ -737,178 +766,153 @@
                                                   <label class="radio-inline">
                                                       <input type="radio" name="optradio"> Least interested</label>
                                                 </div>
-                                              </form>
-                                            </div>
+                                            </form>
                                           </div>
                                         </div>
-                                      </form>
-                                  
-                          
-                                  <h6>Toddlers (18-30 months)</h6>
-                                    <form class="form-valide" action="#" method="post">
-                                      <div class="form-group row">
-                                        <label class="col-lg-4 col-form-label" for="val-username">
-                                        </label>
-                                          <div class="col-lg-6">
-                                            <div class="basic-form mt-30">
-                                              <form>
-                                                  <div class="form-group">
-                                                    <label class="radio-inline mr-3">
-                                                        <input type="radio" name="optradio"> Very  interested</label>
-                                                    <label class="radio-inline mr-3">
-                                                        <input type="radio" name="optradio"> Moderately Interested</label>
-                                                    <label class="radio-inline">
-                                                        <input type="radio" name="optradio"> Least interested</label>
-                                                  </div>
-                                              </form>
-                                            </div>
-                                          </div>
-                                      </div>
+                                    </div>
 
-                                  <h6>Preschool & Pre-K (2.5-4 years)</h6>
-                                    <form class="form-valide" action="#" method="post">
-                                      <div class="form-group row">
-                                        <label class="col-lg-4 col-form-label" for="val-username">
-                                        </label>
-                                          <div class="col-lg-6">
-                                            <div class="basic-form mt-30">
-                                              <form>
-                                                  <div class="form-group">
-                                                    <label class="radio-inline mr-3">
-                                                        <input type="radio" name="optradio"> Very  interested</label>
-                                                    <label class="radio-inline mr-3">
-                                                        <input type="radio" name="optradio"> Moderately Interested</label>
-                                                    <label class="radio-inline">
-                                                        <input type="radio" name="optradio"> Least interested</label>
-                                                  </div>
-                                              </form>
-                                            </div>
-                                          </div>
-                                      </div>
-                                    </form>
-
-                                  <h6>School age (5-12 years)</h6>
-                                    <form class="form-valide" action="#" method="post">
-                                      <div class="form-group row">
-                                        <label class="col-lg-4 col-form-label" for="val-username">
-                                        </label>
-                                          <div class="col-lg-6">
-                                            <div class="basic-form mt-30">
-                                              <form>
-                                                  <div class="form-group">
-                                                    <label class="radio-inline mr-3">
-                                                        <input type="radio" name="optradio"> Very  interested</label>
-                                                    <label class="radio-inline mr-3">
-                                                        <input type="radio" name="optradio"> Moderately Interested</label>
-                                                    <label class="radio-inline">
-                                                        <input type="radio" name="optradio"> Least interested</label>
-                                                  </div>
-                                              </form>
-                                            </div>
-                                          </div>
-                                      </div>
-                                    </form>
-                                   <!--**********************************
-                                    Content  Age group interests end
-                                  ***********************************-->
-
-                                   <!--*****************************************************
-                                    Content Criminal History Background Information Checks
-                                  ***********************************************************-->
-                                    <h5>Criminal History Background Information Checks</h5>
-                                      <p>
-                                        In accordance with Alabama law, (Code of Alabama 1975, Title 38, Chapter 13, effective November 1, 2000), the criminal history background information check shall be completed on each substitute, caregiver, volunteer, and domestic worker, as well as any other person who has contact with the children or unsupervised access to the children shall be reviewed. You must complete a Mandatory Criminal History Notice Form and a Criminal History Information Consent and Release Form. The fee must be submitted with the fingerprints and the consent form. Required forms are available from the Department. If you previously had a criminal history check done for the Department of Human Resources and the required information is on file, it is not necessary to complete a criminal history check.
-                                      </p>
-
-
-                                    <h5>Current Criminal Charge</h5>
-                                      <form class="form-valide" action="#" method="post">
-                                        <div class="form-group row">
-                                          <label class="col-lg-4 col-form-label" for="val-username">Are there any current criminal charges against you?<span class="text-danger">*</span>
-                                          </label>
-                                          <div class="col-lg-6">
-                                            <select class="form-control" id="val-skill" name="val-skill">
-                                                <option value="">Please select</option>
-                                                <option value="yes">Yes</option>
-                                                <option value="no">No</option>
-                                            </select>
+                                <h6>Preschool & Pre-K (2.5-4 years)</h6>
+                                  <form class="form-valide" action="#" method="post">
+                                    <div class="form-group row">
+                                      <label class="col-lg-4 col-form-label" for="val-username">
+                                      </label>
+                                        <div class="col-lg-6">
+                                          <div class="basic-form mt-30">
+                                            <form>
+                                                <div class="form-group">
+                                                  <label class="radio-inline mr-3">
+                                                      <input type="radio" name="optradio"> Very  interested</label>
+                                                  <label class="radio-inline mr-3">
+                                                      <input type="radio" name="optradio"> Moderately Interested</label>
+                                                  <label class="radio-inline">
+                                                      <input type="radio" name="optradio"> Least interested</label>
+                                                </div>
+                                            </form>
                                           </div>
                                         </div>
+                                    </div>
+                                  </form>
 
-                                        <div class="form-group row">
-                                          <label class="col-lg-4 col-form-label" for="val-username"> If yes, give explain<span class="text-danger">*</span>
-                                          </label>
-                                            <div class="col-lg-6">
-                                              <input type="text" class="form-control" name="val-username" placeholder="explain...">
-                                            </div>
-                                        </div>
-
-                                        <div class="form-group row">
-                                          <label class="col-lg-4 col-form-label" for="val-username">Have you ever been convicted of a felony and / or a misdemeanor?<span class="text-danger">*</span>
-                                          </label>
-                                          <div class="col-lg-6">
-                                            <select class="form-control" id="val-skill" name="val-skill">
-                                                <option value="">Please select</option>
-                                                <option value="yes">Yes</option>
-                                                <option value="no">No</option>
-                                            </select>
+                                <h6>School age (5-12 years)</h6>
+                                  <form class="form-valide" action="#" method="post">
+                                    <div class="form-group row">
+                                      <label class="col-lg-4 col-form-label" for="val-username">
+                                      </label>
+                                        <div class="col-lg-6">
+                                          <div class="basic-form mt-30">
+                                            <form>
+                                                <div class="form-group">
+                                                  <label class="radio-inline mr-3">
+                                                      <input type="radio" name="optradio"> Very  interested</label>
+                                                  <label class="radio-inline mr-3">
+                                                      <input type="radio" name="optradio"> Moderately Interested</label>
+                                                  <label class="radio-inline">
+                                                      <input type="radio" name="optradio"> Least interested</label>
+                                                </div>
+                                            </form>
                                           </div>
                                         </div>
+                                    </div>
+                                  </form>
+                                 <!--**********************************
+                                  Content  Age group interests end
+                                ***********************************-->
 
-                                        <div class="form-group row">
-                                          <label class="col-lg-4 col-form-label" for="val-username"> If yes, give explain<span class="text-danger">*</span>
-                                          </label>
-                                            <div class="col-lg-6">
-                                              <input type="text" class="form-control" name="val-username" placeholder="explain...">
-                                            </div>
-                                        </div>
-                                      </form>
-
-                                      <h5 class="mt-30">Clearance of State Central Registry on Child Abuse/ Neglect:</h5>
-                                        <p class="mt-10">
-                                          A completed REQUEST FOR CLEAREANCE OF STATE CENTRAL REGISTRY ON CHILD ABUSE/ NEGELECT (DHR-DFC-1598) shall be obtained for each caregiver, substitute,volunteer, domestic worker,and any other person who has contact with the children or unsupervised access to the children.
-                                        </p>
-                                      
-                                    <!--*****************************************************
-                                      Content Criminal History Background Information Checks end
-                                    ***********************************************************-->
-                                    <h6 class=" mt-30">Certifications and Signature</h6>
-                                    <p class="mt-10">
-                                      I CERTIFY that the facts presented in this application are true, factual and complete to the best of my knowledge.
-                                      In the event of employment, I UNDERSTAND that should any statements made in this application or during the interview process proves to be false, that this may be grounds for immediate dismissal.<br>
-
-                                      I UNDERSTAND that there is no stated or implied minimum or maximum length of employment and that should I be hired, I agree that my employment may be terminated at any time, without prior notice, or just cause.<br>
-
-                                      I UNDERSTAND that all common areas within EMI Childcare Center are under video surveillance at all times. These recordings may be used in the investigation of all, but not limited to, employees and or volunteers.<br>
-
-                                      I UNDERSTAND that all claims and disputes arising under or relating to this Agreement are to be settled by binding arbitration in the state of Alabama or another location mutually agreeable to the parties. An award of arbitration may be confirmed in a court of competent jurisdiction.<br>
-                                        
-                                      I AUTHORIZE EMI Childcare Center and or all agencies, organizations and necessary persons to investigate all statements made in this application and to contact any references given, while releasing EMI Childcare Center from any liabilities and or damage caused. I certify that I am legally entitled to work in the United States and that all permits are currently valid.
+                                 <!--*****************************************************
+                                  Content Criminal History Background Information Checks
+                                ***********************************************************-->
+                                  <h5>Criminal History Background Information Checks</h5>
+                                    <p>
+                                      In accordance with Alabama law, (Code of Alabama 1975, Title 38, Chapter 13, effective November 1, 2000), the criminal history background information check shall be completed on each substitute, caregiver, volunteer, and domestic worker, as well as any other person who has contact with the children or unsupervised access to the children shall be reviewed. You must complete a Mandatory Criminal History Notice Form and a Criminal History Information Consent and Release Form. The fee must be submitted with the fingerprints and the consent form. Required forms are available from the Department. If you previously had a criminal history check done for the Department of Human Resources and the required information is on file, it is not necessary to complete a criminal history check.
                                     </p>
 
-                                  <div class="form-group row">
-                                    <label class="col-lg-4 col-form-label"><a href="#">Terms &amp; Conditions</a>  <span class="text-danger">*</span>
-                                    </label>
-                                    <div class="col-lg-8">
-                                      <label class="css-control css-control-primary css-checkbox" for="val-terms"><input type="checkbox" class="css-control-input" id="val-terms" name="val-terms" value="1"><span class="css-control-indicator"></span> I agree to the terms</label>
-                                    </div>
-                                  </div>
 
-                                  <div class="form-group row">
-                                    <div class="col-lg-8 ml-auto">
-                                      <button type="submit" class="btn btn-primary">Submit</button>
-                                    </div>
+                                  <h5>Current Criminal Charge</h5>
+                                    <form class="form-valide" action="#" method="post">
+                                      <div class="form-group row">
+                                        <label class="col-lg-4 col-form-label" for="val-username">Are there any current criminal charges against you?<span class="text-danger">*</span>
+                                        </label>
+                                        <div class="col-lg-6">
+                                          <select class="form-control" id="val-skill" name="val-skill">
+                                              <option value="">Please select</option>
+                                              <option value="yes">Yes</option>
+                                              <option value="no">No</option>
+                                          </select>
+                                        </div>
+                                      </div>
+
+                                      <div class="form-group row">
+                                        <label class="col-lg-4 col-form-label" for="val-username"> If yes, give explain<span class="text-danger">*</span>
+                                        </label>
+                                          <div class="col-lg-6">
+                                            <input type="text" class="form-control" name="val-username" placeholder="explain...">
+                                          </div>
+                                      </div>
+
+                                      <div class="form-group row">
+                                        <label class="col-lg-4 col-form-label" for="val-username">Have you ever been convicted of a felony and / or a misdemeanor?<span class="text-danger">*</span>
+                                        </label>
+                                        <div class="col-lg-6">
+                                          <select class="form-control" id="val-skill" name="val-skill">
+                                              <option value="">Please select</option>
+                                              <option value="yes">Yes</option>
+                                              <option value="no">No</option>
+                                          </select>
+                                        </div>
+                                      </div>
+
+                                      <div class="form-group row">
+                                        <label class="col-lg-4 col-form-label" for="val-username"> If yes, give explain<span class="text-danger">*</span>
+                                        </label>
+                                          <div class="col-lg-6">
+                                            <input type="text" class="form-control" name="val-username" placeholder="explain...">
+                                          </div>
+                                      </div>
+                                    </form>
+
+                                    <h5 class="mt-30">Clearance of State Central Registry on Child Abuse/ Neglect:</h5>
+                                      <p class="mt-10">
+                                        A completed REQUEST FOR CLEAREANCE OF STATE CENTRAL REGISTRY ON CHILD ABUSE/ NEGELECT (DHR-DFC-1598) shall be obtained for each caregiver, substitute,volunteer, domestic worker,and any other person who has contact with the children or unsupervised access to the children.
+                                      </p>
+                                    
+                                  <!--*****************************************************
+                                    Content Criminal History Background Information Checks end
+                                  ***********************************************************-->
+                                  <h6 class=" mt-30">Certifications and Signature</h6>
+                                  <p class="mt-10">
+                                    I CERTIFY that the facts presented in this application are true, factual and complete to the best of my knowledge.
+                                    In the event of employment, I UNDERSTAND that should any statements made in this application or during the interview process proves to be false, that this may be grounds for immediate dismissal.<br>
+
+                                    I UNDERSTAND that there is no stated or implied minimum or maximum length of employment and that should I be hired, I agree that my employment may be terminated at any time, without prior notice, or just cause.<br>
+
+                                    I UNDERSTAND that all common areas within EMI Childcare Center are under video surveillance at all times. These recordings may be used in the investigation of all, but not limited to, employees and or volunteers.<br>
+
+                                    I UNDERSTAND that all claims and disputes arising under or relating to this Agreement are to be settled by binding arbitration in the state of Alabama or another location mutually agreeable to the parties. An award of arbitration may be confirmed in a court of competent jurisdiction.<br>
+                                      
+                                    I AUTHORIZE EMI Childcare Center and or all agencies, organizations and necessary persons to investigate all statements made in this application and to contact any references given, while releasing EMI Childcare Center from any liabilities and or damage caused. I certify that I am legally entitled to work in the United States and that all permits are currently valid.
+                                  </p>
+
+                                <div class="form-group row">
+                                  <label class="col-lg-4 col-form-label"><a href="#">Terms &amp; Conditions</a>  <span class="text-danger">*</span>
+                                  </label>
+                                  <div class="col-lg-8">
+                                    <label class="css-control css-control-primary css-checkbox" for="val-terms"><input type="checkbox" class="css-control-input" id="val-terms" name="val-terms" value="1"><span class="css-control-indicator"></span> I agree to the terms</label>
                                   </div>
-                                </form>
-                                <p class="mt-30">EMI Childcare Center is an Equal Opportunity Employer. Applications are considered without regard to race, color, religion, sex, national origin, age, marital or veteran status, or the presence of a non-job related medical condition or handicap</p>
+                                </div>
+
+                                <div class="form-group row">
+                                  <div class="col-lg-8 ml-auto">
+                                    <button type="submit" class="btn btn-primary">Submit</button>
+                                  </div>
+                                </div>
                               </form>
+                              <p class="mt-30">EMI Childcare Center is an Equal Opportunity Employer. Applications are considered without regard to race, color, religion, sex, national origin, age, marital or veteran status, or the presence of a non-job related medical condition or handicap</p>
                             </form>
-                          </div>
-
-
-<!--**********************************
-    Content body end
-***********************************-->
+                          </form>
+                        </div>
+                   <!--**********************************
+                      Content body end
+                      ***********************************-->
 
 <!-- Desktop footer info -->
   <div class="bunny_footer_banner_bg footer_bg d-none d-lg-block mt-70">
@@ -955,6 +959,8 @@
       </div>
     </div>
   </div>
+</form>
+
   <!-- Desktop footer info ends -->
 
   <!-- Desktop mobile footer --> 
